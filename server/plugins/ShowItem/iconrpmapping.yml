@@ -1,0 +1,2890 @@
+offset: 0x9000
+# The index of a material in this list must correspond to the index of the symbol in the resource pack!
+map:
+  # unicode_page_90:
+  - wood_sword
+  - wood_pickaxe
+  - wood_spade
+  - wood_axe
+  - wood_hoe
+  - stone_sword
+  - stone_pickaxe
+  - stone_spade
+  - stone_axe
+  - stone_hoe
+  - gold_sword
+  - gold_pickaxe
+  - gold_spade
+  - gold_axe
+  - gold_hoe
+  - unused
+  - iron_sword
+  - iron_pickaxe
+  - iron_spade
+  - iron_axe
+  - iron_hoe
+  - diamond_sword
+  - diamond_pickaxe
+  - diamond_spade
+  - diamond_axe
+  - diamond_hoe
+  - bow
+  - bow_1
+  - bow_2
+  - bow_3
+  - arrow
+  - quiver
+  - head
+  - body
+  - legs
+  - boots
+  - white_leather_helmet
+  - white_leather_chestplate
+  - white_leather_leggings
+  - white_leather_boots
+  - blank_leather_helmet
+  - blank_leather_chestplate
+  - blank_leather_leggings
+  - blank_leather_boots
+  - leather_helmet
+  - leather_chestplate
+  - leather_leggings
+  - leather_boots
+  - chainmail_helmet
+  - chainmail_chestplate
+  - chainmail_leggings
+  - chainmail_boots
+  - gold_helmet
+  - gold_chestplate
+  - gold_leggings
+  - gold_boots
+  - iron_helmet
+  - iron_chestplate
+  - iron_leggings
+  - iron_boots
+  - diamond_helmet
+  - diamond_chestplate
+  - diamond_leggings
+  - diamond_boots
+  - compass_south
+  - compass_southwest
+  - compass_west
+  - compass_northwest
+  - compass
+  - compass_northeast
+  - compass_east
+  - compass_southeast
+  - watch
+  - clock_evening
+  - clock_dusk
+  - clock_night
+  - clock_midnight
+  - clock_wee_hours
+  - clock_dawn
+  - clock_morning
+  - fishing_rod
+  - fishing_rod_cast
+  - carrot_on_a_stick
+  - flint_and_steel
+  - shears
+  - leash
+  - name_tag
+  - iron_barding
+  - gold_barding
+  - diamond_barding
+  - saddle
+  - minecart
+  - chest_minecart
+  - powered_minecart
+  - hopper_minecart
+  - explosive_minecart
+  - boat
+  - book
+  - book_and_quill
+  - written_book
+  - normal_enchanted_book
+  - map
+  - empty_map
+  - bucket
+  - water_bucket
+  - lava_bucket
+  - milk_bucket
+  - snow_ball
+  - egg
+  - ender_pearl
+  - eye_of_ender
+  - fireball
+  - gold_record
+  - green_record
+  - record_3
+  - record_4
+  - record_5
+  - record_6
+  - record_7
+  - record_8
+  - record_9
+  - record_10
+  - record_11
+  - record_12
+  - exp_bottle_normal #(not glowing)
+  - firework
+  - firework_charge
+  - firework_charge_spots
+  - firework_charge_white
+  - firework_charge_gold
+  - firework_charge_red
+  - firework_charge_blue
+  - firework_charge_yellow
+  - firework_charge_green
+  - firework_charge_light_purple
+  - firework_charge_dark_gray
+  - firework_charge_gray
+  - firework_charge_dark_aqua
+  - firework_charge_dark_purple
+  - firework_charge_dark_blue
+  - firework_charge_aqua
+  - firework_charge_dark_green
+  - firework_charge_dark_red
+  - firework_charge_black
+  - ink_sack:15 # bonemeal
+  - ink_sack:14 # orange_dye
+  - ink_sack:13 # magenta_dye
+  - ink_sack:12 # light_blue_dye
+  - ink_sack:11 # dandelion_yellow
+  - ink_sack:10 # lime_dye
+  - ink_sack:9 # pink_dye
+  - ink_sack:8 # gray_dye
+  - ink_sack:7 # light_gray_dye
+  - ink_sack:6 # cyan_dye
+  - ink_sack:5 # purple_dye
+  - ink_sack:4 # lapis
+  - ink_sack:3 # cocoa_beans
+  - ink_sack:2 # cactus_green
+  - ink_sack:1 # rose_red
+  - ink_sack
+  - sign
+  - painting
+  - item_frame
+  - flower_pot
+  - wooden_door
+  - iron_door
+  - hopper
+  - brewing_stand
+  - cauldron
+  - bed
+  - diode
+  - redstone_comparator
+  - redstone
+  - glowstone_dust
+  - sulphur
+  - sugar
+  - iron_ingot
+  - gold_ingot
+  - clay_brick
+  - nether_brick_item
+  - coal
+  - coal:1 # charcoal
+  - diamond
+  - ruby
+  - emerald
+  - quartz
+  - flint
+  - gold_nugget
+  - ghast_tear
+  - nether_star_normal #(not glowing)
+  - clay_ball
+  - slimeball
+  - skull_item
+  - skull_item:1
+  - skull_item:2
+  - skull_item:3
+  - skull_item:4
+  - stick
+  - bone
+  - blaze_rod
+  - blaze_powder
+  - magma_cream
+  - leather
+  - feather
+  - paper
+  - string
+  - fermented_spider_eye
+  - spider_eye
+  - seeds
+  - melon_seeds
+  - pumpkin_seeds
+  - nether_stalk
+  - sugar_cane
+  - wheat
+  - carrot_item
+  - golden_carrot
+  - potato_item
+  - baked_potato
+  - poisonous_potato
+  - melon
+  - speckled_melon
+  - apple
+  - golden_apple
+  - rotten_flesh
+  - pork
+  - grilled_pork
+  - raw_beef
+  - cooked_beef
+  - raw_fish
+  - cooked_fish
+  - raw_chicken
+  - cooked_chicken
+  - bowl
+  - mushroom_soup
+  - bread
+  - cookie
+  - cake
+  - pumpkin_pie
+  - glass_bottle
+  - water_bottle
+  - potion_regen
+  - splash_potion_regen
+  - potion_speed
+  - splash_potion_speed
+  - potion_fire_resistance
+  - splash_potion_fire_resistance
+  - potion_poison
+  - splash_potion_poison
+  - potion_instant_heal
+  - splash_potion_instant_heal
+  - potion_night_vision
+  - splash_potion_night_vision
+  - potion_weakness
+  - splash_potion_weakness
+  - potion_strength
+  - splash_potion_strength
+
+  # unicode_page_91:
+  - potion_slowness
+  - splash_potion_slowness
+  - potion_instant_damage
+  - splash_potion_instant_damage
+  - potion_invisibility
+  - splash_potion_invisibility
+  - splash_potion_bottle
+  - potion_liquid
+  - potion_milk
+  - splash_potion_milk
+  - potion_white
+  - white_potion_splash
+  - potion_speed
+  - splash_potion_speed
+  - potion_slowness
+  - splash_potion_slowness
+
+  - potion_haste
+  - splash_potion_haste
+  - potion_dullness
+  - splash_potion_dullness
+  - potion_strength
+  - splash_potion_strength
+  - potion_health
+  - splash_potion_health
+  - potion_harm
+  - splash_potion_harm
+  - jump_potion_boost
+  - splash_potion_jump_boost
+  - potion_nausea
+  - splash_potion_nausea
+  - potion_regen
+  - splash_potion_regen
+
+  - potion_resistance
+  - splash_potion_resistance
+  - potion_fire_resistance
+  - splash_potion_fire_resistance
+  - potion_water_breathing
+  - splash_potion_water_breathing
+  - potion_invisibility
+  - splash_potion_invisibility
+  - potion_blindness
+  - splash_potion_blindness
+  - potion_night_vision
+  - splash_potion_night_vision
+  - potion_hunger
+  - splash_potion_hunger
+  - potion_weakness
+  - splash_potion_weakness
+
+  - potion_poison
+  - splash_potion_poison
+  - potion_wither
+  - splash_potion_wither
+  - potion_health_boost
+  - splash_potion_health_boost
+  - potion_absorption
+  - splash_potion_absorption
+  - potion_saturation
+  - splash_potion_saturation
+  - splash_potion_mundane
+  - spawn_egg
+  - spawn_eggspots
+  - monster_egg #white_spawn_egg
+  - monster_egg:50 #creeper
+  - monster_egg:51 #skeleton
+
+  - monster_egg:52 #spider
+  - monster_egg:54 #zombie
+  - monster_egg:55 #slime
+  - monster_egg:56 #ghast
+  - monster_egg:57 #zombie_pigman
+  - monster_egg:58 #enderman
+  - monster_egg:59 #cave_spider
+  - monster_egg:60 #silverfish
+  - monster_egg:61 #blaze
+  - monster_egg:62 #magma_cube
+  - monster_egg:65 #bat
+  - monster_egg:66 #witch
+  - monster_egg:90 #pig
+  - monster_egg:91 #sheep
+  - monster_egg:92 #cow
+  - monster_egg:93 #chicken
+
+  - monster_egg:94 #squid
+  - monster_egg:95 #wolf
+  - monster_egg:96 #mooshroom
+  - monster_egg:98 #ocelot
+  - monster_egg:100 #horse
+  - monster_egg:120 #villager
+  - monster_egg_guardian #guardian
+  - monster_egg_polar_bear #polar_bear
+  - monster_egg_wither_skeleton #wither_sekelton
+  - monster_egg_ender_mite #ender_mite
+  - monster_egg_shulker #shulker
+  - monster_egg_rabbit #rabbit
+  - monster_egg_stray #stray
+  - monster_egg_husk #husk
+  - monster_egg_elder_guardian #elder guardian
+  - monster_egg_cat #cat
+
+  - boat_spruce
+  - boat_birch
+  - boat_jungle
+  - boat_acacia
+  - boat_dark_oak
+  - knowledge_book
+  - parrot_spawn_egg
+  - monster_egg_donkey #donkey
+  - monster_egg_mule #mule
+  - monster_egg_skeleton_horse #skeleton horse
+  - monster_egg_zombie_horse #zombie horse
+  - monster_egg_zombie_villager #zombie villager
+  - monster_egg_evoker #evoker
+  - monster_egg_llama #llama
+  - monster_egg_vex #vex
+  - monster_egg_vindicator #vindicator
+
+  - lingering_potion
+  - lingering_potion_water
+  - lingering_potion_thick
+  - lingering_potion_mundane
+  - lingering_potion_lingering
+  - lingering_potion_regen
+  - lingering_potion_speed
+  - lingering_potion_fire_resistance
+  - lingering_potion_poison
+  - lingering_potion_instant_heal
+  - lingering_potion_night_vision
+  - lingering_potion_weakness
+  - lingering_potion_strength
+  - lingering_potion_slowness
+  - lingering_potion_jump
+  - lingering_potion_instant_damage
+
+  - lingering_potion_water_breathing
+  - lingering_potion_invisibility
+  - lingering_potion_luck
+  - potion_luck
+  - splash_potion_luck
+  - splash_potion_water
+  - potion_uncraftable
+  - spawn_shulker
+  - shield_slot
+  - boots_slot
+  - leggings_slot
+  - chestplate_slot
+  - helmet_slot
+  - shield
+  - spectral_arrow
+  - totem
+
+  - shield_white
+  - shield_orange
+  - shield_magenta
+  - shield_light_blue
+  - shield_yellow
+  - shield_lime
+  - shield_pink
+  - shield_gray
+  - shield_light_grey
+  - shield_cyan
+  - shield_purple
+  - shield_blue
+  - shield_brown
+  - shield_green
+  - shield_red
+  - shield_black
+
+  - tipped_arrow
+  - tipped_arrow_splashing
+  - tipped_arrow_regen
+  - tipped_arrow_speed
+  - tipped_arrow_fire_resistance
+  - tipped_arrow_poison
+  - tipped_arrow_instant_heal
+  - tipped_arrow_night_vision
+  - tipped_arrow_weakness
+  - tipped_arrow_strength
+  - tipped_arrow_slowness
+  - tipped_arrow_jump
+  - tipped_arrow_instant_damage
+  - tipped_arrow_water_breathing
+  - tipped_arrow_invisibility
+  - tipped_arrow_luck
+
+  - sapling # oak_sapling
+  - sapling:1 # spruce_sapling
+  - sapling:2 # birch_sapling
+  - sapling:3 # jungle_sapling
+  - dead_bush
+  - shrub
+  - white_fern
+  - long_grass:2 # fern
+  - white_grass
+  - long_grass # tallgrass
+  - white_stem_attached
+  - stem_attached
+  - white_stem
+  - stem
+  - white_vine
+  - vine
+  - white_water_lily
+  - water_lily
+  - sugarcane_block
+  - netherwart_3
+  - netherwart_2
+  - netherwart_1
+  - red_mushroom
+  - brown_mushroom
+  - red_flower
+  - cyan_flower
+  - yellow_flower
+  - unused
+  - unused
+  - iron_bars
+  - thin_glass # glass_pane
+  - web
+  - wheat_8
+  - wheat_7
+  - wheat_6
+  - wheat_5
+  - wheat_4
+  - wheat_3
+  - wheat_2
+  - wheat_1
+  - potatoes_4
+  - potatoes_3
+  - potatoes_2
+  - potatoes_1
+  - carrots_4
+  - carrots_3
+  - carrots_2
+  - carrots_1
+  - rails
+  - rails_north-east
+  - powered_rail
+  - powered_powered_rail
+  - detector_rail
+  - powered_detector_rail
+  - activator_rail
+  - powered_activator_rail
+  - rail_horizontal
+  - rail_east-south
+  - powered_rail_horizontal
+  - powered_powered_rail_horizontal
+  - detector_rail_horizontal
+  - powered_detector_rail_horizontal
+  - activator_rail_horizontal
+  - powered_activator_rail_horizontal
+  - rail_south-east
+  - rail_east-north
+  - ladder
+  - ladder_horizontal
+  - redstone_wire
+  - redstone_wire_horizontal
+  - redstone_wire_vertical
+  - tripwire
+  - tripwire_horizontal
+  - tripwire_vertical
+  - tripwire_cross
+  - tripwire_hook
+  - lever
+  - torch
+  - redstone_torch_on
+  - redstone_torch_off
+
+  # unicode_page_92:
+  - fire_0
+  - fire_1
+  - fire_2
+  - fire_3
+  - fire_4
+  - fire_5
+  - fire_inside_0
+  - fire_inside_1
+  - fire_inside_2
+  - fire_inside_3
+  - fire_inside_4
+  - stationary_water
+  - flowing_water
+  - stationary_lava
+  - flowing_lava
+  - nether_portal
+  - stationary_water_solid
+  - flowing_water_solid
+  - nether_portal_solid
+  - break_0
+  - break_1
+  - break_2
+  - break_3
+  - break_4
+  - break_5
+  - break_6
+  - break_7
+  - break_8
+  - break_9
+  - unused
+  - unused
+  - unused
+  - coal_ore_tile
+  - iron_ore_tile
+  - gold_ore_tile
+  - redstone_ore_tile
+  - diamond_ore_tile
+  - lapis_ore_tile
+  - emerald_ore_tile
+  - cobblestone_tile
+  - mossy_cobblestone_tile
+  - stone_tile
+  - stone_bricks_tile
+  - mossy_stone_bricks_tile
+  - cracked_stone_bricks_tile
+  - chiseled_stone_bricks_tile
+  - stone_slab_top_tile
+  - stone_slab_side_tile
+  - coal_block_tile
+  - iron_block_tile
+  - gold_block_tile
+  - redstone_block_tile
+  - diamond_block_tile
+  - lapis_block_tile
+  - emerald_block_tile
+  - bedrock_tile
+  - furnace_tile
+  - burning_furnace_tile
+  - furnace_back_tile
+  - furnace_top_tile
+  - dispenser_tile
+  - dispenser_top_tile
+  - dropper_tile
+  - dropper_top_tile
+  - piston_tile
+  - piston_head_tile
+  - piston_top_tile
+  - repeater_tile
+  - powered_repeater_tile
+  - comparator_tile
+  - powered_comparator_tile
+  - redstone_lamp_tile
+  - powered_redstone_lamp_tile
+  - daylight_detector_bottom_tile
+  - daylight_detector_tile
+  - crafting_table_top_tile
+  - crafting_table_side_tile
+  - crafting_table_tile
+  - jukebox_tile
+  - note_block_tile
+  - dirt_tile
+  - grass_block_tile
+  - snowy_grass_block_tile
+  - mycelium_tile
+  - farmland_tile
+  - wet_farmland_tile
+  - snow_tile
+  - soul_sand_tile
+  - gravel_tile
+  - sand_tile
+  - sandstone_tile
+  - smooth_sandstone_tile
+  - chiseled_sandstone_tile
+  - sandstone_top_tile
+  - sandstone_bottom_tile
+  - end_stone_tile
+  - obsidian_tile
+  - glowstone_tile
+  - nether_brick_block_tile
+  - netherrack_tile
+  - nether_quartz_ore_tile
+  - quartz_block_tile
+  - quartz_block_bottom_tile
+  - pillar_quartz_tile
+  - pillar_quartz_top_tile
+  - chiseled_quartz_tile
+  - chiseled_quartz_top_tile
+  - oak_log_tile
+  - oak_log_top_tile
+  - oak_planks_tile
+  - bookshelf_tile
+  - trapdoor_tile
+  - pumpkin_tile
+  - jack_o'_lantern_tile
+  - pumkin_side_tile
+  - pumpkin_top_tile
+  - melon_block_tile
+  - melon_block_top_tile
+  - cactus_tile
+  - mushroom_stem_tile
+  - mushroom_brown_tile
+  - mushroom_red_tile
+  - mushroom_pores_tile
+  - hay_bale_tile
+  - sponge_tile
+  - ice_tile
+  - tnt_tile
+  - spawner_tile
+  - enchantment_table_top_tile
+  - enchantment_table_side_tile
+  - end_portal_frame_tile
+  - end_portal_frame_side_tile
+  - cake_top_tile
+  - cake_side_tile
+  - cake_side_eaten_tile
+  - command_block_tile
+  - unused
+  - unused
+  - unused
+  - beacon_side_tile
+  - beacon_crystal_tile
+  - item_frame_back_tile
+  - painting_back_tile
+  - static_tile
+  - tfda_bedrock_tile
+  - summoning_brick_tile
+  - corrupt_brick_side_tile
+  - corrupt_brick_top_tile
+  - tfda_redstone_ore_tile
+  - corrupt_runes_tile
+  - tfda_netherbrick_tile
+  - tfda_netherrack
+  - tfda_obsidian_tile
+  - air_glyph_tile
+  - water_glyph_tile
+  - earth_glyph_tile
+  - fire_glyph_tile
+  - tfda_glowstone_tile
+  - tfda_cobblestone_tile
+  - cracked_icy_bricks_tile
+  - light_blue_cloth_tile
+  - green_cloth_tile
+  - yellow_cloth_tile
+  - purple_cloth_tile
+  - glowing_red_cloth_tile
+  - red_cloth_tile
+  - tfda_coal_block_tile
+  - tfda_redstone_block_tile
+  - tfda_lapis_block_tile
+  - tfda_hardened_clay_tile
+  - tfda_snow_tile
+  - tfda_snowy_grass_block_tile
+  - tfda_mycelium_tile
+  - tfda_ice_tile
+  - tfda_tnt_tile
+  - tfda_sponge_tile
+  - tfda_chiseled_sandstone_tile
+  - tfda_bricks_tile
+  - tfda_daylight_detector_bottom_tile
+  - tfda_daylight_detector_tile
+  - tfda_bookshelf_tile
+  - tfda_cactus_tile
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - creeper
+  - charged_creeper
+  - skeleton
+  - wither_skeleton
+  - spider
+  - zombie
+  - zombie_villager
+  - slime
+  - ghast
+  - firing_ghast
+  - zombie_pigman
+  - enderman
+  - cave_spider
+  - silverfish
+  - blaze
+  - magma_cube
+  - bat
+  - witch
+  - unused
+  - pig
+  - sheep
+  - cow
+  - chicken
+  - squid
+  - wolf
+  - dog
+  - angry_wolf
+  - mooshroom
+  - ocelot
+  - black_cat
+  - ginger_cat
+  - siamese_cat
+  - horse
+  - donkey
+  - mule
+  - skeleton_horse
+  - zombie_horse
+  - villager
+  - human
+  - snow_golem
+  - iron_golem
+  - shulker
+  - enderdragon
+  - wither
+  - wither_protected
+  - unused
+  - wither_skull
+  - blue_wither_skull
+  - rideable_minecart
+  - chest_minecart
+  - furnace_minecart
+  - hopper_minecart
+  - tnt_minecart
+  - spawner_minecart
+  - boat_entity
+  - sign_front
+  - sign_back
+  - chest_tile
+  - trapped_chest_tile
+  - ender_chest_tile
+  - christmas_chest_tile
+  - doublechest
+  - trapped_doublechest
+  - christmas_doublechest
+
+  # unicode_page_93:
+  - ender_crystal_shell
+  - ender_crystal_gem_1
+  - ender_crystal_gem_2
+  - ender_crystal_gem_3
+  - ender_crystal_gem_4
+  - ender_crystal_gem_5
+  - ender_crystal_gem_6
+  - ender_crystal_1
+  - ender_crystal_2
+  - ender_crystal_3
+  - ender_crystal_4
+  - ender_crystal_5
+  - ender_crystal_6
+  - beacon_beam
+  - arrow_entity
+  - item_frame_entity
+  - painting_kebab
+  - painting_aztec
+  - painting_alban
+  - painting_aztec2
+  - painting_bomb
+  - painting_plant
+  - painting_wasteland
+  - painting_pool
+  - painting_courbet
+  - painting_sea
+  - painting_sunset
+  - painting_creebet
+  - painting_wanderer
+  - painting_graham
+  - painting_skeleton
+  - painting_donkeykong
+  - painting_match
+  - painting_bust
+  - painting_stage
+  - painting_void
+  - painting_skullandroses
+  - painting_wither
+  - painting_fighters
+  - painting_pointer
+  - painting_pigscene
+  - painting_flaming_skull
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - xp_orb_1
+  - xp_orb_2
+  - xp_orb_3
+  - xp_orb_4
+  - xp_orb_5
+  - xp_orb_6
+  - xp_orb_7
+  - xp_orb_8
+  - xp_orb_9
+  - xp_orb_10
+  - xp_orb_11
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - inventory_slot
+  - button
+  - button_disabled
+  - button_highlighted
+  - delete_slot
+  - gui_arrow
+  - gui_blocked_arrow
+  - gui_complete_arrow
+  - gui_burning
+  - gui_burning_full
+  - gui_plus
+  - gui_integral
+  - gui_delete
+  - gui_potion
+  - gui_green_check
+  - gui_red_x
+  - hammer
+  - hammer_and_anvil
+  - abacus
+  - broken_shovel
+  - right_button
+  - right_button_highlighted
+  - right_button_disabled
+  - left_button
+  - left_button_highlighted
+  - left_button_disabled
+  - up_button
+  - down_button
+  - gui_language
+  - realms_off
+  - realms_on
+  - realms_none
+  - white_gui_arrow
+  - white_gui_burning
+  - white_gui_plus
+  - white_gui_integral
+  - white_gui_delete
+  - white_gui_potion
+  - white_gui_check
+  - white_gui_x
+  - gui_circle
+  - gui_cursor
+  - connection_5
+  - connection_4
+  - connection_3
+  - connection_2
+  - connection_1
+  - connection_0
+  - connecting_1
+  - connecting_2
+  - connecting_3
+  - connecting_4
+  - connecting_5
+  - hotbar_slot
+  - hotbar_cursor
+  - selected_hotbar_slot
+  - gui_1
+  - gui_2
+  - gui_3
+  - gui_4
+  - gui_5
+  - gui_ex
+  - unused
+  - unused
+  - messages_highlighted
+  - messages
+  - 1_message_highlighted
+  - 2_messages_highlighted
+  - 3_messages_highlighted
+  - 4_messages_highlighted
+  - 5_messages_highlighted
+  - ex_messages_highlighted
+  - 1_message
+  - 2_messages
+  - 3_messages
+  - 4_messages
+  - 5_messages
+  - ex_messages
+  - heart_container
+  - healing_heart_container
+  - heart
+  - half_heart
+  - poison_heart
+  - half_poison_heart
+  - wither_heart
+  - half_wither_heart
+  - mob_heart
+  - half_mob_heart
+  - hardcore_heart
+  - hardcore_half_heart
+  - hardcore_poison_heart
+  - hardcore_half_poison_heart
+  - hardcore_wither_heart
+  - hardcore_half_wither_heart
+  - absorption_heart
+  - half_absorption_heart
+  - light_heart
+  - light_half_heart
+  - light_poison_heart
+  - light_half_poison_heart
+  - light_wither_heart
+  - light_half_wither_heart
+  - light_mob_heart
+  - light_half_mob_heart
+  - light_hardcore_heart
+  - light_hardcore_half_heart
+  - light_hardcore_poison_heart
+  - light_hardcore_half_poison_heart
+  - light_hardcore_wither_heart
+  - light_hardcore_half_wither_heart
+  - hardcore_absorption_heart
+  - hardcore_half_absorption_heart
+  - healing_heart
+  - healing_half_heart
+  - healing_poison_heart
+  - healing_half_poison_heart
+  - healing_wither_heart
+  - healing_half_wither_heart
+  - healing_mob_heart
+  - healing_half_mob_heart
+  - healing_hardcore_heart
+  - healing_hardcore_half_heart
+  - healing_hardcore_poison_heart
+  - healing_hardcore_half_poison_heart
+  - healing_hardcore_wither_heart
+  - healing_hardcore_half_wither_heart
+  - red_heart_container
+  - red_wither_heart
+  - armor_point
+  - half_armor_point
+  - empty_armor_point
+  - air_bubble
+  - half_air_bubble
+  - reversed_hunger_point
+  - hunger_container
+  - healing_hunger_container
+  - red_hunger_container
+  - green_hunger_container
+  - brown_hunger_container
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - hunger_point
+  - half_hunger_point
+  - light_hunger_point
+  - light_half_hunger_point
+  - poison_hunger_point
+  - half_poison_hunger_point
+  - light_poison_hunger_point
+  - light_half_poison_hunger_point
+  - healing_hunger_point
+  - healing_half_hunger_point
+  - healing_poison_hunger_point
+  - healing_half_poison_hunger_point
+  - hunger_hunger_point
+  - half_hunger_hunger_point
+  - healing_hunger_hunger_point
+  - healing_half_hunger_hunger_point
+  - speed
+  - slowness
+  - haste
+  - mining_fatigue
+  - strength
+  - weakness
+  - poison
+  - regen
+  - invisibility
+  - hunger
+  - jump_boost
+  - nausea
+  - night_vision
+  - blindness
+  - resistance
+  - fire_resistance
+  - water_breathing
+  - wither_status
+  - absorption
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+
+  # unicode_page_94:
+  - tfda_zombie
+  - tfda_woman
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - tfda_trapped_chest_tile
+  - tfda_trapped_doublechest
+  - tfda_speed
+  - tfda_slowness
+  - tfda_regen
+  - tfda_jump_boost
+  - tfda_nausea
+  - tfda_blindness
+  - tfda_wither_status
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - map_landmark
+  - map_nether_portal
+  - map_end_portal
+  - map_portal
+  - map_floating_island
+  - map_basin
+  - map_lake
+  - map_lava_lake
+  - map_river
+  - map_waterfall
+  - map_cave
+  - map_ravine
+  - map_dungeon
+  - map_mineshaft
+  - map_stronghold
+  - map_village
+  - map_desert_well
+  - map_desert_temple
+  - map_jungle_temple
+  - map_witch_hut
+  - map_nether_fortress
+  - map_obsidian_pillar
+  - map_ender_crystal
+  - map_end_exit_portal
+  - map_teleport_altar
+  - map_estate_agency
+  - map_port
+  - map_bank
+  - map_bed
+  - map_inn
+  - map_chest
+  - map_ender_chest
+  - map_crafting_table
+  - map_furnace
+  - map_brewing_stand
+  - map_brewing_stand_and_cauldron
+  - map_cauldron
+  - map_enchantment_table
+  - map_anvil
+  - map_anvil_damaged
+  - map_cake
+  - map_cake_eaten
+  - map_jukebox
+  - map_map
+  - map_beacon
+  - map_fishing
+  - map_wishing_well
+  - map_library
+  - map_mine
+  - map_stable
+  - map_fountain
+  - map_shop
+  - map_trading
+  - map_challenge
+  - map_plot
+  - map_monument
+  - map_gravestone
+  - map_house
+  - map_large_house
+  - map_shack
+  - map_tower
+  - map_castle
+  - map_treehouse
+  - map_ruins
+  - map_totem
+  - map_danger
+  - map_prohibited
+  - map_farm
+  - map_wheat
+  - map_sugarcane
+  - map_cocoa_beans
+  - map_netherwart
+  - map_tree
+  - map_melon
+  - map_pumpkin
+  - map_cactus
+  - map_carrot
+  - map_potato
+  - map_animal_farm
+  - map_pig_farm
+  - map_sheep_farm
+  - map_cow_farm
+  - map_chicken_farm
+  - map_horse_farm
+  - map_mooshroom_farm
+  - map_squid_farm
+  - map_snow_golem_farm
+  - map_forest
+  - map_desert
+  - map_plains
+  - map_swamp
+  - map_jungle
+  - map_taiga
+  - map_tundra
+  - map_mountains
+  - map_mushroom_island
+  - map_spawner
+  - map_zombie_spawner
+  - map_skeleton_spawner
+  - map_spider_spawner
+  - map_cave_spider_spawner
+  - map_blaze_spawner
+  - map_silverfish_spawner
+  - map_enderman_spawner
+  - map_pig_spawner
+  - pig_mob
+  - sheep_mob
+  - cow_mob
+  - chicken_mob
+  - horse_mob
+  - donkey_mob
+  - mule_mob
+  - map_grinder
+  - map_zombie_grinder
+  - map_skeleton_grinder
+  - map_spider_grinder
+  - map_cave_spider_grinder
+  - map_blaze_grinder
+  - map_silverfish_grinder
+  - map_enderman_grinder
+  - map_pig_grinder
+  - skeleton_horse_mob
+  - zombie_horse_mob
+  - mooshroom_mob
+  - squid_mob
+  - wolf_mob
+  - dog_mob
+  - angry_wolf_mob
+  - map_xp_grinder
+  - map_zombie_xp_grinder
+  - map_skeleton_xp_grinder
+  - map_spider_xp_grinder
+  - map_cave_spider_xp_grinder
+  - map_blaze_xp_grinder
+  - map_silverfish_xp_grinder
+  - map_enderman_xp_grinder
+  - map_pig_xp_grinder
+  - ocelot_mob
+  - black_cat_mob
+  - ginger_cat_mob
+  - siamese_cat_mob
+  - bat_mob
+  - farmer_mob
+  - butcher_mob
+  - blacksmith_mob
+  - librarian_mob
+  - priest_mob
+  - villager_mob
+  - human_mob
+  - snow_golem_mob
+  - iron_golem_mob
+  - enderdragon_mob
+  - wither_mob
+  - wither_protected_mob
+  - creeper_mob
+  - charged_creeper_mob
+  - skeleton_mob
+  - wither_skeleton_mob
+  - spider_mob
+  - zombie_mob
+  - zombie_villager_mob
+  - slime_mob
+  - ghast_mob
+  - firing_ghast_mob
+  - zombie_pigman_mob
+  - enderman_mob
+  - cave_spider_mob
+  - silverfish_mob
+  - blaze_mob
+  - magma_cube_mob
+  - witch_mob
+  - open_shulker_mob
+  - closed_shulker_mob
+  - unused
+  - unused
+  - unused
+  - amenity_hidden_chest
+  - amenity_multi_chest
+  - amenity_hidden_trapped_chest
+  - amenity_return_portal
+  - amenity_floor_plan_map
+  - amenity_map
+  - amenity_secrets_map
+  - amenity_wastebasket
+  - amenity_fountain_of_life
+  - amenity_key_portal
+  - amenity_xp_bank
+  - amenity_alchemic_circle
+  - amenity_meeting_chamber
+  - amenity_item_spawn
+  - amenity_heaven's_door
+  - amenity_hell's_door
+  - amenity_buying_trader
+  - amenity_gear_trader
+  - amenity_food/material_trader
+  - amenity_food/mat/pot_trader
+  - amenity_omni_trader
+  - map_tfda_zombie_spawner
+  - map_tfda_zombie_grinder
+  - map_tfda_zombie_xp_grinder
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - map_christmas_chest
+  - map_trapped_chest
+
+  # unicode_page_95:
+  - tfda_zombie_mob
+  - tfda_woman_mob
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - white_sword
+  - white_pickaxe
+  - white_shovel
+  - white_axe
+  - white_hoe
+  - white_bow
+  - white_arrow
+  - white_helmet
+  - white_chestplate
+  - white_leggings
+  - white_boots
+  - white_fishing_rod
+  - white_lead
+  - white_name_tag
+  - white_horse_armor
+  - white_saddle
+  - white_minecart
+  - white_minecart_with_chest
+  - white_boat
+  - white_book
+  - white_empty_map
+  - white_map
+  - white_bucket
+  - white_egg
+  - white_ender_pearl
+  - white_eye_of_ender
+  - white_fire_charge
+  - white_disc
+  - white_bottle_o'_enchanting
+  - white_firework
+  - white_firework_charge_blank
+  - white_firework_star
+  - white_orange_dye
+  - white_magenta_dye
+  - white_light_blue_dye
+  - white_dandelion_yellow
+  - white_light_gray_dye
+  - white_cyan_dye
+  - white_lapis
+  - white_cocoa_beans
+  - white_cactus_green
+  - white_rose_red
+  - white_ink_sac
+  - white_sign
+  - white_painting
+  - white_item_frame
+  - white_door
+  - white_hopper
+  - white_bed
+  - white_redstone
+  - white_iron_ingot
+  - white_coal
+  - white_charcoal
+  - white_diamond
+  - white_ruby
+  - white_emerald
+  - white_nether_quartz
+  - white_flint
+  - white_gold_nugget
+  - white_ghast_tear
+  - white_nether_star
+  - white_clay_ball
+  - white_slimeball
+  - unused
+  - white_skeleton_skull
+  - white_wither_skeleton_skull
+  - white_zombie_head
+  - white_head
+  - white_creeper_head
+  - white_stick
+  - white_blaze_rod
+  - white_blaze_powder
+  - white_magma_cream
+  - white_leather
+  - white_paper
+  - white_fermented_spider_eye
+  - white_spider_eye
+  - unused
+  - unused
+  - unused
+  - white_seeds
+  - white_melon_seeds
+  - white_pumpkin_seeds
+  - white_netherwart
+  - white_sugarcane
+  - white_wheat
+  - white_carrot
+  - white_golden_carrot
+  - white_potato
+  - white_baked_potato
+  - white_poisonous_potato
+  - white_melon
+  - white_glistering_melon
+  - white_apple
+  - white_golden_apple
+  - white_rotten_flesh
+  - white_raw_porkchop
+  - white_porkchop
+  - white_raw_beef
+  - white_steak
+  - white_raw_fish_
+  - white_cooked_fish
+  - white_raw_chicken
+  - white_cooked_chicken
+  - white_bowl
+  - white_mushroom_stew
+  - white_bread
+  - white_cookie
+  - white_cake
+  - white_pumpkin_pie
+  - unused
+  - unused
+  - tfda_white_helmet
+  - tfda_white_chestplate
+  - tfda_white_leggings
+  - tfda_white_boots
+  - tfda_white_nether_quartz
+  - tfda_white_zombie_head
+  - tfda_white_purple_dye
+  - old_white_cocoa_beans
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - white_starfish
+  - white_seashell
+  - white_oak_sapling
+  - white_spruce_sapling
+  - white_birch_sapling
+  - white_jungle_sapling
+  - white_sugarcane_block
+  - white_netherwart_3
+  - white_netherwart_2
+  - white_netherwart_1
+  - white_red_mushroom
+  - white_brown_mushroom
+  - white_rose
+  - white_dandelion
+  - white_iron_bars
+  - white_wheat_block
+  - white_potatoes
+  - white_carrots
+  - white_rail
+  - white_rail_horizontal
+  - white_ladder
+  - white_ladder_horizontal
+  - white_lever
+  - white_torch
+  - white_shrub
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - white_fire
+  - white_stationary_water
+  - white_flowing_water
+  - white_stationary_lava
+  - white_flowing_lava
+  - white_nether_portal
+  - white_stationary_water_solid
+  - white_flowing_water_solid
+  - white_nether_portal_solid
+  - white_ore_tile
+  - white_stone_tile
+  - white_stone_bricks_tile
+  - white_cracked_stone_bricks_tile
+  - white_chiseled_stone_bricks_tile
+  - white_stone_slab_top_tile
+  - white_stone_slab_side_tile
+  - white_furnace_top_tile
+  - white_coal_block_tile
+  - white_iron_block_tile
+  - white_gold_block_tile
+  - white_redstone_block_tile
+  - white_lapis_block_tile
+  - white_emerald_block_tile
+  - white_bedrock_tile
+  - white_redstone_lamp_tile
+  - white_powered_redstone_lamp_tile
+  - white_daylight_detector_bottom_tile
+  - white_daylight_detector_tile
+  - white_jukebox_tile
+  - white_note_block_tile
+  - white_dirt_tile
+  - white_grass_block_tile
+  - white_mycelium_tile
+  - white_farmland_tile
+  - white_snow_tile
+  - white_soul_sand_tile
+  - white_gravel_tile
+  - white_sand_tile
+  - white_sandstone_tile
+  - white_smooth_sandstone_tile
+  - white_chiseled_sandstone_tile
+  - white_sandstone_top_tile
+  - white_sandstone_bottom_tile
+  - white_end_stone_tile
+  - white_obsidian_tile
+  - white_glowstone_tile
+  - white_nether_brick_block_tile
+  - white_netherrack_tile
+  - white_oak_log_tile
+  - white_oak_log_top_tile
+  - white_oak_planks_tile
+  - white_pumpkin_tile
+  - white_jack_o'_lantern_tile
+  - white_pumkin_side_tile
+  - white_pumpkin_top_tile
+  - white_melon_block_tile
+  - white_melon_block_top_tile
+  - white_tnt_tile
+  - white_spawner_tile
+  - white_command_block_tile
+  - white_beacon_crystal_tile
+  - white_item_frame_back_tile
+  - white_painting_back_tile
+  - white_static_tile
+  - tfda_white_coal_block_tile
+  - tfda_white_redstone_block_tile
+  - tfda_white_lapis_block_tile
+  - tfda_white_hardened_clay_tile
+  - unused
+  - unused
+  - unused
+  - tfda_white_snowy_grass_block_tile
+  - tfda_white_snow_tile
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - tfda_white_chiseled_sandstone_tile
+  - tfda_white_bricks_tile
+
+  # unicode_page_96:
+  - white_boat_entity
+  - white_sign_front
+  - white_sign_back
+  - white_chest_tile
+  - white_trapped_chest_tile
+  - white_ender_chest_tile
+  - white_christmas_chest_tile
+  - white_doublechest
+  - white_trapped_doublechest
+  - white_christmas_doublechest
+  - unused
+  - unused
+  - unused
+  - unused
+  - tfda_white_trapped_chest_tile
+  - tfda_white_trapped_doublechest
+  - white_ender_crystal_shell
+  - white_ender_crystal_gem_1
+  - white_ender_crystal_gem_2
+  - white_ender_crystal_gem_3
+  - white_ender_crystal_gem_4
+  - white_ender_crystal_gem_5
+  - white_ender_crystal_gem_6
+  - white_ender_crystal_1
+  - white_ender_crystal_2
+  - white_ender_crystal_3
+  - white_ender_crystal_4
+  - white_ender_crystal_5
+  - white_ender_crystal_6
+  - white_arrow_entity
+  - white_wither_skull
+  - white_blue_wither_skull
+  - white_zombie
+  - white_zombie_villager
+  - white_witch
+  - white_villager
+  - white_human
+  - unused
+  - white_enderman
+  - white_blaze
+  - unused
+  - white_wither
+  - unused
+  - unused
+  - unused
+  - unused
+  - tfda_white_zombie
+  - tfda_white_woman
+  - white_gui_blocked_arrow
+  - white_gui_burning_full
+  - white_gui_green_check
+  - white_gui_red_x
+  - unused
+  - unused
+  - unused
+  - unused
+  - white_hammer
+  - white_hammer_and_anvil
+  - white_abacus
+  - white_broken_shovel
+  - unused
+  - white_realms_off
+  - white_realms_on
+  - white_realms_none
+  - white_connection_5
+  - white_connection_4
+  - white_connection_3
+  - white_connection_2
+  - white_connection_1
+  - white_connection_0
+  - white_gui_1
+  - white_gui_2
+  - white_gui_3
+  - white_gui_4
+  - white_gui_5
+  - white_gui_ex
+  - unused
+  - unused
+  - unused
+  - unused
+  - white_heart_container
+  - white_heart
+  - white_half_heart
+  - white_poison_heart
+  - white_half_poison_heart
+  - white_mob_heart
+  - white_half_mob_heart
+  - white_hardcore_heart
+  - white_hardcore_half_heart
+  - white_hardcore_poison_heart
+  - white_hardcore_half_poison_heart
+  - white_absorption_heart
+  - white_half_absorption_heart
+  - white_light_heart
+  - white_light_half_heart
+  - unused
+  - white_armor_point
+  - white_half_armor_point
+  - white_empty_armor_point
+  - white_air_bubble
+  - white_half_air_bubble
+  - white_reversed_hunger_point
+  - white_hunger_container
+  - white_hunger_point
+  - white_half_hunger_point
+  - white_light_hunger_point
+  - white_light_half_hunger_point
+  - white_poison_hunger_point
+  - white_half_poison_hunger_point
+  - unused
+  - unused
+  - unused
+  - white_speed
+  - white_slowness
+  - white_haste
+  - white_mining_fatigue
+  - white_strength
+  - white_weakness
+  - white_poison
+  - white_regen
+  - white_invisibility
+  - white_hunger
+  - white_jump_boost
+  - white_nausea
+  - white_night_vision
+  - white_blindness
+  - white_resistance
+  - white_fire_resistance
+  - white_water_breathing
+  - white_wither_status
+  - white_absorption
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - tfda_white_speed
+  - tfda_white_slowness
+  - tfda_white_regen
+  - tfda_white_jump_boost
+  - tfda_white_nausea
+  - tfda_white_blindness
+  - tfda_white_wither_status
+  - north_arrow
+  - northeast_arrow
+  - east_arrow
+  - southeast_arrow
+  - south_arrow
+  - southwest_arrow
+  - west_arrow
+  - northwest_arrow
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - symbol_cycloid_emblem_aa
+  - symbol_snub_diamond_twist_aa
+  - symbol_diamond_twist_aa
+  - symbol_astroid_fractal_aa
+  - symbol_tight_astroid_twist_aa
+  - symbol_astroid_twist_aa
+  - unused
+  - unused
+  - symbol_cycloid_emblem
+  - symbol_snub_diamond_twist
+  - symbol_diamond_twist
+  - symbol_astroid_fractal
+  - symbol_tight_astroid_twist
+  - symbol_astroid_twist
+  - unused
+  - unused
+  - symbol_astroid_lace_aa
+  - symbol_astroid_lace_thin_aa
+  - symbol_astroid_lace_split_aa
+  - symbol_astroid_lace_small_split_aa
+  - symbol_ashndar_aa
+  - symbol_quest_aa
+  - unused
+  - unused
+  - symbol_astroid_lace
+  - symbol_astroid_lace_thin
+  - symbol_astroid_lace_split
+  - symbol_astroid_lace_small_split
+  - symbol_ashndar
+  - symbol_quest
+  - unused
+  - unused
+  - symbol_x_tight_aa
+  - symbol_x_tight_even-odd_aa
+  - symbol_adventure_aa-symbol_x_even
+  - odd_aa
+  - unused
+  - unused
+  - unused
+  - unused
+  - symbol_x_tight
+  - symbol_x_tight_even-odd
+  - symbol_adventure
+  - symbol_x_even-odd
+  - unused
+  - unused
+  - unused
+  - unused
+  - symbol_corner_pair_aa
+  - symbol_corner_diamond_aa
+  - symbol_inverted_corner_diamond_aa
+  - symbol_overlay_rune_aa
+  - symbol_minigame_aa
+  - unused
+  - unused
+  - unused
+  - symbol_corner_pair
+  - symbol_corner_diamond
+  - symbol_inverted_corner_diamond
+  - symbol_overlay_rune
+  - symbol_minigame
+  - unused
+  - unused
+  - unused
+  - quest_icon
+  - ashndar_icon
+  - adventure_icon
+  - minigame_icon
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - white_quest_icon
+  - white_ashndar_icon
+  - white_adventure_icon
+  - white_minigame_icon
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+
+  # unicode_page_97:
+  - air
+  - stone
+  - bedrock
+  - obsidian
+  - netherrack
+  - glowstone
+  - end_stone
+  - ice
+  - dirt
+  - grass_block
+  - mycelium
+  - sand
+  - gravel
+  - soul_sand
+  - clay
+  - snow_block
+
+  - coal_ore
+  - iron_ore
+  - gold_ore
+  - redstone_ore
+  - diamond_ore
+  - lapis_ore
+  - emerald_ore
+  - quartz_ore
+  - unused
+  - coal_block
+  - iron_block
+  - gold_block
+  - redstone_block
+  - diamond_block
+  - lapis_block
+  - emerald_block
+
+  - cobblestone
+  - mossy_cobblestone
+  - smooth_brick # stone_bricks
+  - smooth_brick:1 # mossy_stone_bricks
+  - smooth_brick:2 # cracked_stone_bricks
+  - smooth_brick:3 # chiseled_stone_bricks
+  - brick
+  - nether_brick
+  - sandstone
+  - sandstone:1 # smooth_sandstone
+  - sandstone:2 # chiseled_sandstone
+  - quartz_block
+  - quartz_block:1 # pillar_quartz
+  - quartz_block:2 # chiseled_quartz
+  - hard_clay
+  - glass
+
+  - stained_clay:0 # white_stained_clay
+  - stained_clay:1 # orange_stained_clay
+  - stained_clay:2 # magenta_stained_clay
+  - stained_clay:3 # light_blue_stained_clay
+  - stained_clay:4 # yellow_stained_clay
+  - stained_clay:5 # lime_stained_clay
+  - stained_clay:6 # pink_stained_clay
+  - stained_clay:7 # gray_stained_clay
+  - stained_clay:8 # light_gray_stained_clay
+  - stained_clay:9 # cyan_stained_clay
+  - stained_clay:10 # purple_stained_clay:
+  - stained_clay:11 # blue_stained_clay:
+  - stained_clay:12 # brown_stained_clay:
+  - stained_clay:13 # green_stained_clay:
+  - stained_clay:14 # red_stained_clay:
+  - stained_clay:15 # black_stained_clay:
+
+  - wool:0 # white_wool
+  - wool:1 # orange_wool
+  - wool:2 # magenta_wool
+  - wool:3 # light_blue_wool
+  - wool:4 # yellow_wool
+  - wool:5 # lime_wool
+  - wool:6 # pink_wool
+  - wool:7 # gray_wool
+  - wool:8 # light_gray_wool
+  - wool:9 # cyan_wool
+  - wool:10 # purple_wool
+  - wool:11 # blue_wool
+  - wool:12 # brown_wool
+  - wool:13 # green_wool
+  - wool:14 # red_wool
+  - wool:15 # black_wool
+
+  - carpet:0 # white_carpet
+  - carpet:1 # orange_carpet
+  - carpet:2 # magenta_carpet
+  - carpet:3 # light_blue_carpet
+  - carpet:4 # yellow_carpet
+  - carpet:5 # lime_carpet
+  - carpet:6 # pink_carpet
+  - carpet:7 # gray_carpet
+  - carpet:8 # light_gray_carpet
+  - carpet:9 # cyan_carpet
+  - carpet:10 # purple_carpet
+  - carpet:11 # blue_carpet
+  - carpet:12 # brown_carpet
+  - carpet:13 # green_carpet
+  - carpet:14 # red_carpet:
+  - carpet:15 # black_carpet
+
+  - log # oak_log
+  - log:1 # spruce_log
+  - log:2 # birch_log
+  - log:3 # jungle_log
+  - wood # oak_planks
+  - wood:1 # spruce_planks
+  - wood:2 # birch_planks
+  - wood:3 # jungle_planks
+  - leaves # oak_leaves
+  - leaves:1 # spruce_leaves
+  - leaves:2 # birch_leaves
+  - leaves:3 # jungle_leaves
+  - oak_leaves_hd
+  - spruce_leaves_hd
+  - birch_leaves_hd
+  - jungle_leaves_hd
+
+  - wood_stairs # oak_wood_stairs
+  - spruce_wood_stairs # spruce_wood_stairs
+  - birch_wood_stairs # birch_wood_stairs
+  - jungle_wood_stairs # jungle_wood_stairs
+  - cobblestone_stairs
+  - smooth_stairs # stone_brick_stairs
+  - sandstone_stairs
+  - brick_stairs
+  - nether_brick_stairs
+  - quartz_stairs
+  - unused
+  - pumpkin
+  - jack_o_lantern
+  - melon_block
+  - cactus
+  - sponge
+
+  - wood_step # oak_wood_slab
+  - wood_step:1 # spruce_wood_slab
+  - wood_step:2 # birch_wood_slab
+  - wood_step:3 # jungle_wood_slab
+  - step:3 # cobblestone_slab
+  - step:5 # stone_brick_slab
+  - step:1 # sandstone_slab
+  - step:4 # brick_slab
+  - step:6 # netherbrick_slab
+  - step:7 # quartz_slab
+  - step # stone_slab
+  - cobble_wall
+  - cobble_wall:1 # mossy
+  - fence
+  - netherbrick_fence
+  - fence_gate
+
+  - bookshelf
+  - workbench
+  - furnace
+  - dispenser
+  - dropper
+  - piston
+  - sticky_piston
+  - note_block
+  - jukebox
+  - redstone_lamp
+  - tnt
+  - hay_block # hay_bale
+  - stone_plate
+  - wood_plate
+  - gold_plate # weighted_pressure_plate_(light)
+  - iron_plate # weighted_pressure_plate_(heavy)
+
+  - chest
+  - trapped_chest
+  - ender_chest
+  - enchantment_table
+  - ender_portal_frame
+  - anvil
+  - anvil:1 # slightly_damaged_anvil
+  - anvil:2 # very_damaged_anvil
+  - trapdoor
+  - snow
+  - daylight_detector
+  - stone_button
+  - wood_button
+  - enderdragon_egg
+  - command_block
+  - mob_spawner
+
+  - doubleslab
+  - smooth_stone_doubleslab
+  - smooth_sandstone_doubleslab
+  - farmland
+  - wet_farmland
+  - furnace_back
+  - lit_redstone_lamp
+  - error_block
+  - cake_block
+  - eaten_cake_block
+  - nether_portal_block
+  - flipped_nether_portal_block
+  - beacon
+  - flipped_pumpkin
+  - flipped_jack_o'_lantern
+  - uncarved_pumpkin
+
+  - left_oak_log
+  - left_spruce_log
+  - left_birch_log
+  - left_jungle_log
+  - right_oak_log
+  - right_spruce_log
+  - right_birch_log
+  - right_jungle_log
+  - full_bark_oak_log
+  - full_bark_spruce_log
+  - full_bark_birch_log
+  - full_bark_jungle_log
+  - left_pillar_quartz
+  - right_pillar_quartz
+  - left_hay_bale
+  - right_hay_bale
+
+  - mushroom_pore
+  - mushroom_stem
+  - mushroom_full_stem
+  - brown_mushroom_left
+  - brown_mushroom_center
+  - brown_mushroom_right
+  - brown_mushroom_full_block
+  - red_mushroom_left
+  - red_mushroom_center
+  - red_mushroom_right
+  - red_mushroom_full_block
+  - observer
+  - locked_chest
+  - glowing_obsidian
+  - nether_reactor
+  - stonecutter
+
+  - black_shulker_box
+  - blue_shulker_box
+  - brown_shulker_box
+  - cyan_shulker_box
+  - gray_shulker_box
+  - green_shulker_box
+  - light_blue_shulker_box
+  - silver_shulker_box
+  - lime_shulker_box
+  - magenta_shulker_box
+  - orange_shulker_box
+  - pink_shulker_box
+  - purple_shulker_box
+  - red_shulker_box
+  - white_shulker_box
+  - yellow_shulker_box
+
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+
+  # unicode_page_98:
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+
+  - white_stone
+  - white_bedrock
+  - white_obsidian
+  - white_netherrack
+  - white_glowstone
+  - white_end_stone
+  - white_ice
+  - white_dirt
+  - white_sand
+  - white_gravel
+  - white_soul_sand
+  - white_clay
+  - white_snow_block
+  - white_ore
+  - unused
+  - unused
+
+  - white_coal_block
+  - white_iron_block
+  - white_gold_block
+  - white_redstone_block
+  - white_lapis_block
+  - white_emerald_block
+  - white_oak_log
+  - white_birch_log
+  - white_jungle_log
+  - white_planks
+  - white_oak_leaves
+  - white_spruce_leaves
+  - white_jungle_leaves
+  - white_oak_leaves_hd
+  - white_spruce_leaves_hd
+  - white_jungle_leaves_hd
+
+  - white_cobblestone
+  - white_stone_bricks
+  - white_chiseled_stone_bricks
+  - white_bricks
+  - white_nether_brick_block
+  - white_sandstone
+  - white_smooth_sandstone
+  - white_chiseled_sandstone
+  - white_quartz_block
+  - white_pillar_quartz
+  - white_chiseled_quartz
+  - white_hardened_clay
+  - white_glass
+  - white_chest
+  - white_ender_chest
+  - white_end_portal_frame
+
+  - white_wood_stairs
+  - white_cobblestone_stairs
+  - white_stone_brick_stairs
+  - white_sandstone_stairs
+  - white_brick_stairs
+  - white_nether_brick_stairs
+  - white_quartz_stairs
+  - unused
+  - white_pumpkin
+  - white_jack_o'_lantern
+  - white_melon
+  - white_cactus
+  - white_sponge
+  - white_anvil
+  - white_slightly_damaged_anvil
+  - white_very_damaged_anvil
+
+  - white_wood_slab
+  - white_cobblestone_slab
+  - white_stone_brick_slab
+  - white_sandstone_slab
+  - white_brick_slab
+  - white_nether_brick_slab
+  - white_quartz_slab
+  - white_stone_slab
+  - white_cobblestone_wall
+  - white_fence
+  - white_netherbrick_fence
+  - white_fence_gate
+  - white_snow
+  - white_daylight_detector
+  - white_stone_button
+  - white_wooden_button
+
+  - white_bookshelf
+  - white_crafting_table
+  - white_furnace
+  - white_dispenser
+  - white_dropper
+  - white_piston
+  - white_note_block
+  - white_jukebox
+  - white_redstone_lamp
+  - white_tnt
+  - white_hay_bale
+  - white_stone_pressure_plate
+  - white_wooden_pressure_plate
+  - white_weighted_pressure_plate_(light)
+  - white_weighted_pressure_plate_(heavy)
+  - white_trapdoor
+
+  - white_enderdragon_egg
+  - white_command_block
+  - white_spawner
+  - white_doubleslab
+  - white_smooth_stone_doubleslab
+  - white_smooth_sandstone_doubleslab
+  - white_farmland
+  - white_wet_farmland
+  - white_furnace_back
+  - white_lit_redstone_lamp
+  - white_error_block
+  - white_cake_block
+  - white_eaten_cake_block
+  - white_nether_portal_block
+  - white_flipped_nether_portal_block
+  - unused
+
+  - white_left_oak_log
+  - white_left_birch_log
+  - white_left_jungle_log
+  - white_right_oak_log
+  - white_right_birch_log
+  - white_right_jungle_log
+  - white_full_bark_oak_log
+  - white_full_bark_birch_log
+  - white_full_bark_jungle_log
+  - white_flipped_pumpkin
+  - white_flipped_jack_o'_lantern
+  - white_uncarved_pumpkin
+  - white_left_pillar_quartz
+  - white_right_pillar_quartz
+  - white_left_hay_bale
+  - white_right_hay_bale
+
+  - white_mushroom_pore
+  - white_mushroom_stem
+  - white_mushroom_full_stem
+  - white_brown_mushroom_left
+  - white_brown_mushroom_center
+  - white_brown_mushroom_right
+  - white_brown_mushroom_full_block
+  - white_red_mushroom_left
+  - white_red_mushroom_center
+  - white_red_mushroom_right
+  - white_red_mushroom_full_block
+  - white_observer
+  - white_locked_chest
+  - white_glowing_obsidian
+  - white_nether_reactor
+  - white_stonecutter
+
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+
+  # unicode_page_99:
+  - nether_star #glowing
+  - exp_bottle #glowing
+  - golden_apple:1 #glowing
+  - enchanted_book #glowing
+  - glowing_written_book #glowing
+  - unused
+  - unused
+  - unused
+  - celestial_magic_powder
+  - arcane_magic_powder
+  - aetheric_magic_powder
+  - sagittan_magic_powder
+  - tenacious_magic_powder
+  - lithe_magic_powder
+  - unearthly_magic_powder
+  - divine_magic_powder
+  - tfda_clock_noon
+  - tfda_clock_sunset
+  - tfda_clock_sunrise
+  - tfda_clock_midnight
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - large_north_arrow
+  - large_northeast_arrow
+  - large_east_arrow
+  - large_southeast_arrow
+  - large_south_arrow
+  - large_southwest_arrow
+  - large_west_arrow
+  - large_northwest_arrow
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - large_symbol_cycloid_emblem_aa
+  - large_symbol_snub_diamond_twist_aa
+  - large_symbol_diamond_twist_aa
+  - large_symbol_astroid_fractal_aa
+  - large_symbol_tight_astroid_twist_aa
+  - large_symbol_astroid_twist_aa
+  - unused
+  - unused
+  - large_symbol_cycloid_emblem
+  - large_symbol_snub_diamond_twist
+  - large_symbol_diamond_twist
+  - large_symbol_astroid_fractal
+  - large_symbol_tight_astroid_twist
+  - large_symbol_astroid_twist
+  - unused
+  - unused
+  - large_symbol_astroid_lace_aa
+  - large_symbol_astroid_lace_thin_aa
+  - large_symbol_astroid_lace_split_aa
+  - large_symbol_astroid_lace_small_split_aa
+  - large_symbol_ashndar_aa
+  - large_symbol_quest_aa
+  - unused
+  - unused
+  - large_symbol_astroid_lace
+  - large_symbol_astroid_lace_thin
+  - large_symbol_astroid_lace_split
+  - large_symbol_astroid_lace_small_split
+  - large_symbol_ashndar
+  - large_symbol_quest
+  - unused
+  - unused
+  - large_symbol_x_tight_aa
+  - large_symbol_x_tight_even-odd_aa
+  - large_symbol_adventure_aa
+  - large_symbol_x_even-odd_aa
+  - unused
+  - unused
+  - unused
+  - unused
+  - large_symbol_x_tight
+  - large_symbol_x_tight_even-odd
+  - large_symbol_adventure
+  - large_symbol_x_even-odd
+  - unused
+  - unused
+  - unused
+  - unused
+  - large_symbol_corner_pair_aa
+  - large_symbol_corner_diamond_aa
+  - large_symbol_inverted_corner_diamond_aa
+  - large_symbol_overlay_rune_aa
+  - large_symbol_minigame_aa
+  - unused
+  - unused
+  - unused
+  - large_symbol_corner_pair
+  - large_symbol_corner_diamond
+  - large_symbol_inverted_corner_diamond
+  - large_symbol_overlay_rune
+  - large_symbol_minigame
+  - unused
+  - unused
+  - unused
+
+  - large_quest_icon
+  - large_ashndar_icon
+  - large_adventure_icon
+  - large_minigame_icon
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+
+  - large_white_quest_icon
+  - large_white_ashndar_icon
+  - large_white_adventure_icon
+  - large_white_minigame_icon
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+
+  # unicode_page_9a:
+  - diorite_tile
+  - polished_diorite_tile
+  - andesite_tile
+  - polished_andesite_tile
+  - granite_tile
+  - polished_granite_tile
+  - coarse_dirt_tile
+  - prismarine_tile
+  - prismarine_tile2
+  - prismarine_tile3
+  - prismarine_tile4
+  - prismarine_bricks_tile
+  - dark_prismarine_tile
+  - red_sandstone_tile
+  - red_standstone_top_tile
+  - chiseled_red_sandstone_tile
+  - sea_lantern_tile
+  - wet_sponge_tile
+  - slime_block_tile
+  - barrier_tile
+  - spruce_door_item
+  - birch_door_item
+  - jungle_door_item
+  - dark_oak_door_item
+  - acacia_door_item
+  - iron_trapdoor
+  - spruce_fence_gate
+  - birch_fence_gate
+  - jungle_fence_gate
+  - dark_oak_fence_gate
+  - acacia_fence_gate
+  - smooth_red_sandstone_tile
+  - banner_white
+  - banner_orange
+  - banner_magenta
+  - banner_light_blue
+  - banner_yellow
+  - banner_lime
+  - banner_pink
+  - banner_gray
+  - banner_light_gray
+  - banner_cyan
+  - banner_purple
+  - banner_blue
+  - banner_brown
+  - banner_green
+  - banner_red
+  - banner_black
+  - prismarine_crystals
+  - prismarine_shard
+  - raw_mutton
+  - cooked_mutton
+  - rabbit # raw_rabbit
+  - cooked_rabbit
+  - rabbit_stew
+  - rabbit_hide
+  - rabbit_foot
+  - potion_jump
+  - splash_potion_jump
+  - spawn_guardian
+  - spawn_elder_guardian
+  - spawn_endermite
+  - spawn_rabbit
+  - armor_stand
+  - stone:3 # diorite
+  - stone:4 # polished_diorite
+  - stone:5 # andesite
+  - stone:6 # polished_andesite
+  - stone:1 # granite
+  - stone:2 # polished_granite
+  - dirt:1 # coarse_dirt
+  - prismarine
+  - prismarine:1 # prismarine_bricks
+  - prismarine:2 # dark_prismarine
+  - sea_lantern
+  - guardian_mob
+  - elder_guardian_mob
+  - endermite_mob
+  - rabbit_mob
+  - barrier
+  - wet_sponge
+  - slime_block
+  - stone_slab2 # red_sandstone_slab
+  - red_sandstone
+  - red_sandstone:1 # chiseled_red_sandstone
+  - red_sandstone:2 # smooth_red_sandstone
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - stained_glass_pane:0 # white_glass_pane
+  - stained_glass_pane:1 # orange_glass_pane
+  - stained_glass_pane:2 # magenta_glass_pane
+  - stained_glass_pane:3 # light_blue_glass_pane
+  - stained_glass_pane:4 # yellow_glass_pane
+  - stained_glass_pane:5 # lime_glass_pane
+  - stained_glass_pane:6 # pink_glass_pane
+  - stained_glass_pane:7 # gray_glass_pane
+  - stained_glass_pane:8 # light_gray_glass_pane
+  - stained_glass_pane:9 # cyan_glass_pane
+  - stained_glass_pane:10 # purple_glass_pane
+  - stained_glass_pane:11 # blue_glass_pane
+  - stained_glass_pane:12 # brown_glass_pane
+  - stained_glass_pane:13 # green_glass_pane
+  - stained_glass_pane:14 # red glass_pane
+  - stained_glass_pane:15 # black_glass_pane
+  - stained_glass:0 # white_glass
+  - stained_glass:1 # orange_glass
+  - stained_glass:2 # magenta_glass
+  - stained_glass:3 # light_blue_glass
+  - stained_glass:4 # yellow_glass
+  - stained_glass:5 # lime_glass
+  - stained_glass:6 # pink_glass
+  - stained_glass:7 # gray_glass
+  - stained_glass:8 # light_gray_glass
+  - stained_glass:9 # cyan_glass
+  - stained_glass:10 # purple_glass
+  - stained_glass:11 # blue_glass
+  - stained_glass:12 # brown_glass
+  - stained_glass:13 # green_glass
+  - stained_glass:14 # red_glass
+  - stained_glass:15 # black_glass
+  - acacia_log_tile
+  - acacia_log_top_tile
+  - acacia_planks_tile
+  - dark_oak_log_tile
+  - dark_oak_log_top_tile
+  - dark_oak_planks_tile
+  - acacia_stairs
+  - dark_oak_stairs
+  - wood_step:4 # acacia_slab
+  - wood_step:5 # dark_oak_slab
+  - sapling:4 # acacia_sapling
+  - sapling:5 # dark_oak_sapling
+  - acacia_leaves_tile
+  - acacia_leaves_hd_tile
+  - dark_oak_leaves_tile
+  - dark_oak_leaves_hd_tile
+  - packed_ice_tile
+  - podzol_tile
+  - podzol_top_tile
+  - red_sand_tile
+  - red_rose:4 # red_tulip
+  - red_rose:5 # orange_tulip
+  - red_rose:6 # white_tulip
+  - red_rose:7 # pink_tulip
+  - red_rose:1 # blue_orchid
+  - red_rose:2 # allium
+  - red_rose:3 # azure_bluet
+  - red_rose:8 # oxeye_daisy
+  - red_rose # poppies
+  - double_plant # sunflower
+  - double_plant:5 # peony
+  - double_plant:4 # rose_bush
+  - double_plant:1 # lilacs
+  - double_plant:2 # double_tall_grass
+  - double_plant:3 # large_fern
+  - raw_fish:1 # pufferfish
+  - raw_fish:2 # clownfish
+  - raw_fish:1 # salmon
+  - cooked_fish:1 # cooked_salmon
+  - potion_water_breathing
+  - splash_potion_water_breathing
+  - command_minecart
+  - command_minecart_3d
+  - log_2 # acacia_log
+  - log_2:1 # dark_oak_log
+  - wood:4 # acacia_planks
+  - wood:5 # dark_oak_planks
+  - packed_ice
+  - leaves_2 # acacia_leaves
+  - acacia_leaves_hd
+  - leaves_2:1 # dark_oak_leaves
+  - dark_oak_leaves_hd
+  - dirt:2 # podzol
+  - sand:1 # red_sand
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - unused
+  - shulker_shell
+  - structure_block_tile
+  - structure_block_corner_tile
+  - structure_block_data_tile
+  - structure_block_load_tile
+  - structure_block_save_tile
+  - structure_void_tile
+  - magma_block_tile
+  - nether_wart_block_tile
+  - red_nether_brick_tile
+  - bone_block_tile
+  - bone_block_top_tile
+  - polar_bear
+  - stray
+  - husk
+  - end_crystal
+  - broken_elytra
+  - structure_block
+  - structure_block_corner
+  - structure_block_data
+  - structure_block_load
+  - structure_block_save
+  - structure_void
+  - magma # magma_block
+  - nether_wart_block
+  - red_nether_brick
+  - bone_block
+  - beetroot_soup
+  - spawn_polar_bear
+  - spawn_stray
+  - spawn_husk
+  - dragons_breath
+  - elytra
+  - chorus_flower_tile
+  - chorus_flower_dead_tile
+  - chorus_plant_tile
+  - chorus_flower
+  - chorus_flower_dead
+  - chorus_plant
+  - chorus_fruit
+  - chorus_fruit_popped
+  - skull_item:5 # dragon_head
+  - end_gateway
+  - end_rod
+  - end_rod_left
+  - end_rod_up
+  - end_rod_right
+  - end_bricks_tile
+  - end_bricks
+  - grass_path_tile
+  - grass_path_top_tile
+  - grass_path
+  - purpur_block_tile
+  - purpur_block
+  - purpur_pillar_tile
+  - purpur_pillar_top_tile
+  - purpur_pillar
+  - purpur_stairs
+  - purpur_slab
+  - frosted_ice_tile
+  - frosted_ice_cracked1_tile
+  - frosted_ice_cracked2_tile
+  - frosted_ice_cracked3_tile
+  - beetroot
+  - beetroot_seeds

@@ -1,0 +1,201 @@
+# Config for ChatItem
+# For info visit
+# Spigotmc: https://www.spigotmc.org/resources/19064/
+# Discord: https://discord.gg/yng5PPf62h
+config-version: 13
+manager: both
+general:
+  placeholders:
+  - '[i]'
+  - '{i}'
+  - '[item]'
+  - '{item}'
+  - '%item&'
+  - '%i%'
+  other-placeholders:
+    helmet:
+      enabled: true
+      deny-if-no-item: true
+      keys:
+      - '[head]'
+      - '{head}'
+      - '%head%'
+    chestplate:
+      enabled: true
+      deny-if-no-item: true
+      keys:
+      - '[chest]'
+      - '{chest}'
+      - '%chest%'
+    leggings:
+      enabled: true
+      deny-if-no-item: true
+      keys:
+      - '[legs]'
+      - '{legs}'
+      - '%legs%'
+    boots:
+      enabled: false
+      deny-if-no-item: true
+      keys:
+      - '[feet]'
+      - '{feet}'
+      - '%feet%'
+    inventory:
+      enabled: true
+      deny-if-no-item: true
+      keys:
+      - '[inv]'
+      - '{inv}'
+      - '%inv%'
+    enderchest:
+      enabled: true
+      deny-if-no-item: true
+      keys:
+      - '[ec]'
+      - '{ec}'
+      - '%ec%'
+  name-format: '&b&l&o{name}{amount}&r'
+  amount-format: ' x{times}'
+  color-if-already-colored: true
+  force-add-amount: true
+  let-message-through: true
+  deny-if-no-item: false
+  hand:
+    disabled: false
+    name: '&b&l&o{display-name}&b&l&o''s hand'
+    tooltip:
+    - '&7Nothing to see here'
+    - '&7Just the empty hand of {display-name}.'
+  bugged_client:
+    action: show_both
+    tooltip:
+    - '&7Failed to parse item for your client'
+  command-format: '&6%name%''s item is %item%'
+  show-no-permission-message:
+    normal: true
+    command: false
+  permission:
+    enabled: false
+    name: chatitem.use
+  limit: 8
+  cooldown: 30
+  ignored_items:
+  - SOME_ITEM
+  check-update: true
+  language: en_gb
+  sub-commands:
+    broadcast: true
+    show: true
+messages:
+  deny-message: '&c&lYou have no item in hand!'
+  reload-success: '&b&lSuccessful reload!'
+  cooldown-message: '&c&lYou can only use items in chat once a minute! You have {remaining}
+    left!'
+  no-permission: '&c&lI''m sorry, but you are not allowed to use the placeholder in
+    chat!'
+  limit-message: '&c&lYou can only add 8 item placeholders per message!'
+  ignored-item: '&cThis item is not allowed to be showed.'
+  join-update:
+    message: '&cA new version of ChatItem is available. &aClick here to download.'
+    hover: '&6Click to go to spigot page !'
+  only-players: '&cOnly players can run this command'
+  player-not-found: '&cThe player %arg% can''t be founded.'
+  chatitem-cmd:
+    help:
+    - '&6/chatitem admin : &7Manage some options'
+    - '&6/chatitem links : &7See all links which are usefull'
+    links:
+      begin: '&aAll usefull links: '
+      list:
+        '1':
+          message: |2-
+
+            &7- &eSpigotmc updates
+          hover: '&6Click to go to spigot page !'
+          link: https://www.spigotmc.org/resources/19064/
+        '2':
+          message: ' '
+        '3':
+          message: '&7(Original author: &aDadus33'
+          hover: '&6See &aDadus33&6''s profile'
+          link: https://www.spigotmc.org/members/10224/
+        '4':
+          message: '&7, '
+        '5':
+          message: '&7Maintainer: &aElikill58&7)'
+          hover: '&6See &aElikill58&6''s profile'
+          link: https://www.spigotmc.org/members/310762/
+        '6':
+          message: |2-
+
+            &7- &6Support on discord
+          hover: '&6Click to open discord !'
+          link: https://discord.gg/yng5PPf62h
+  admin-inv:
+    name: ChatItem - Admin
+    close: Close
+    amount-lore:
+    - '&aLeft-click: &6+1'
+    - '&aRight-click: &6-1'
+    bool-lore:
+    - '&7Click to enable/disable'
+    color-if-already-colored: '&6Color if already colored: %state%'
+    deny-no-item: '&6Deny without item: %state%'
+    hand-disabled: '&6Hand disabled: %state%'
+    limit-per-message: '&6Limit per message: &a%state%'
+    cooldown: '&6Cooldown: &a%state%'
+    debug: '&6Debug: &a%state%'
+    check-update: '&6Check updates: &a%state%'
+    language:
+      name: '&6Change language'
+      lore: '&7Actual: &e%name%'
+    manager:
+      both:
+        name: '&6Use both manager&7: &aPacket & Chat'
+        lore:
+        - '&aTry both manager. Very usefull when you have lot of plugins'
+        - '&eIt enable to use ChatItem for all type of messages'
+        - ''
+        - '&7Since ChatItem v2.1'
+      auto:
+        name: '&6Choose automatically'
+        lore:
+        - '&aChoose automatically between managers available'
+        - '&aaccording to actuals plugins.'
+        - '&eThis is better when you are not using own plugin.'
+        - ''
+        - '&7Since ChatItem v2.1'
+      packet:
+        name: '&6Intercept packets'
+        lore:
+        - '&aChange message sent directly by intercepting packet'
+        - '&aCan use &6ProtocolLib &aif present.'
+        - '&cCan have error with &e/cir &c!'
+        - ''
+        - '&7Originally made until ChatItem v1.4'
+      chat:
+        name: '&6Change basic message'
+        lore:
+        - '&aVery quick and usefull for server without plugin message !'
+        - '&aIt enable to use ChatItem without packet reading.'
+        - '&eIt''s more optimized than others manager'
+        - ''
+        - '&7Since ChatItem v2.0'
+      actual:
+        name: '&6Actual manager: %manager%'
+        lore: []
+  seconds: ' seconds'
+  minutes: ' minutes'
+  hours: ' hours'
+  enabled: '&aEnabled'
+  disabled: '&cDisabled'
+  inventory:
+    name: '%cible%''s inventory'
+    chat: '%cible%''s inventory'
+    hover: '&7Click to see inventory'
+  enderchest:
+    name: '%cible%''s enderchest'
+    chat: '%cible%''s enderchest'
+    hover: '&7Click to see enderchest'
+discord-srv-send-our: true

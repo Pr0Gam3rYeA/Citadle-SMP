@@ -1,0 +1,43 @@
+# This is the config.yml | You can customize all ranks and settings
+# The prefix has a maximum length of 16 characters, else it get cuts!
+# Don't add or delete ranks when the server is online, it could give bugs!
+# Don't touch the scoreboard-teams which start with "er_"!
+# The rank has to start with "er_" in order to get added!
+# ------------------------------------------------------------------------
+# permissions: Enable the EasyRanks-Permission system (ADDED SOON)!!!!!
+# chat: Use the EasyRanks-Chat system
+# defaultRank: All players with no rank get this rank
+# ------------------------------------------------------------------------
+# %p will be replaced with the player
+# & in order to use color-codes
+permissions: false
+chat: true
+defaultRank: er_player
+ranks:
+  er_player:
+    prefix: '&7Player&8: &f'
+    chat: '&8[&7Player&8] &7%p &f➟ &y'
+  er_owner:
+    prefix: '&4&lOwner&8: &f'
+    chat: '&f&l[&4&lOwner&f&l] &4&l%p &f&l➟ &f'
+  er_admin:
+    prefix: '&c&lAdmin&8: &f'
+    chat: '&8&l[&c&lAdmin&8&l] &7%p &f&l➟ &7'
+  er_moderator:
+    prefix: '&9&lMod&8: &f'
+    chat: '&8&l[&9&lMod&8&l] &7%p &f&l➟ &7'
+  er_supporter:
+    prefix: '&b&lSup&8: &f'
+    chat: '&8[&b&lSup&8] &7%p &f&l➟ &f'
+  er_vip:
+    prefix: '&6&lVIP&8: &f'
+    chat: '&8[&6&lVIP&8] &7%p &f&l➟ &7'
+  er_developer:
+    prefix: '&d&lDev&8: &f'
+    chat: '&8&l[&d&lDev&8&l] &7%p &f&l➟ &f'
+  er_builder:
+    prefix: '&e&lBuilder&8: &f'
+    chat: '&8[&e&lBuilder&8] &7%p &f&l➟ &7'
+  er_youtube:
+    prefix: '&5&lYT&8: &f'
+    chat: '&5&l[&5&lYT&5&l] &7%p &f&l➟ &5'

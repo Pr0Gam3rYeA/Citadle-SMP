@@ -1,0 +1,6 @@
+Command:
+  Success: '''&4Change the messages in the config.yml!'''
+  NoPermission: '''&4Change the messages in the config.yml!'''
+  ConsoleCannotPerformCommand: '''&4Change the messages in the config.yml!'''
+  ReloadMessage: '&4Change the messages in the config.yml!'
+  NoReloadPermission: '''&4Change the messages in the config.yml!'''

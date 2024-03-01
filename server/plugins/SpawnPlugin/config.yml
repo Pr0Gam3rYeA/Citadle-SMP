@@ -1,0 +1,20 @@
+# 
+#                                      #
+#             Spawn Plugin             #
+#                                      #
+settings:
+  tpmessage-enable: true
+  spawn-on-join: true
+messages:
+  tpmessage: '&aYou have been teleported to Spawn'
+  error-nospawnpoint: '&cNo Spawn Point set'
+  success-setspawn: '&aSpawn point set Correctly'
+  cmd-spawn-usage: '&cUsage: /spawn'
+  cmd-setspawn-usage: '&cUsage: /setspawn'
+spawn:
+  world: world
+  x: -144.395
+  y: 68.0
+  z: 250.391
+  yaw: 272.70007
+  pitch: 55.649998

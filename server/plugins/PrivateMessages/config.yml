@@ -1,0 +1,17 @@
+OfflineMessaging:
+    Enable: true
+    Type: default
+MessagesHistory:
+    DateFormat: "MM.dd.yyyy HH:mm:ss"
+Sound:
+    defaultenabled: true
+    SoundName: LEVEL_UP
+    Volume: 1
+    Pitch: 0.6
+Storage:
+    type: sqlite
+    hostname: localhost
+    user:
+    password:
+    database:
+    port:

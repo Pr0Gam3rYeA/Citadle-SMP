@@ -1,0 +1,16 @@
+# 
+# +------------------------------------------------------+ #
+# |             CustomHelp ~ Plugin By iFreezzz          | #
+# +------------------------------------------------------+ #
+Help:
+- '&d----------&aCustomHelp&d----------'
+- '&1 Line 1 &f- You can add text too'
+- '&2 Line 2 &f- You can add text too'
+- '&3 Line 3 &f- You can add text too'
+- '&d-------------------------------'
+StaffHelp:
+- '&d----------&aStaffHelp&d----------'
+- '&1 Line 1 &f- You can add text too'
+- '&2 Line 2 &f- You can add text too'
+- '&3 Line 3 &f- You can add text too'
+- '&d-------------------------------'

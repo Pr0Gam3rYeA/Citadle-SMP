@@ -1,0 +1,13 @@
+enterMessage: '&9&lYou have entered Spawn!'
+exitMessage: '&9&lYou left Spawn, good luck and have fun!'
+removeBlockMessage: '&c&lHey! &r&4&lSorry, but you cannot break any blocks in spawn!'
+placeBlockMessage: '&cY&lHey! &r&4&lSorry, but uou cannot place any blocks in spawn!'
+igniteBlockMessage: '&c&lHey! &r&4&lSorry, but you cannot perform this action in Spawn!'
+emptyBucketMessage: '&c&lHey! &r&4&lSorry, but you cannot perform this action in Spawn!'
+fillBucketMessage: '&c&lHey! &r&4&lSorry, but you cannot perform this action in Spawn!'
+damageRepelMessage: '&aDamage repelled, you cannot take any damage in the spawn!'
+damageDeniedMessage: '&c&lHey! &r&4&lSorry, but you cannot hurt anything in Spawn!'
+northBorder: 232
+westBorder: -161
+southBorder: 264
+eastBorder: -128

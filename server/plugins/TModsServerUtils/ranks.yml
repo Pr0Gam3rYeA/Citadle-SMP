@@ -1,0 +1,15 @@
+Players:
+  af01f83e-6a2c-3b2c-a897-a812d00d255d: Owner
+Ranks:
+  Guest:
+    name: Guest
+    permissions: []
+    prefix: '[Guest] '
+    suffix: ': '
+    default: true
+  Owner:
+    name: Owner
+    permissions: []
+    prefix: 'Pr0Gam3rYeA '
+    suffix: 'Pr0Gam3rYeA '
+    default: false

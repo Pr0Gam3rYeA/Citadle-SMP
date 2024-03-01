@@ -1,0 +1,123 @@
+Default: 20
+Players:
+  6c474ca2-e165-3879-9a1b-37ba4c426d69:
+    HP: 30.0
+    ExtraHearts: 5.0
+    LastSeenAs: NathanisnotX
+  af01f83e-6a2c-3b2c-a897-a812d00d255d:
+    HP: 2048.0
+    ExtraHearts: 10300.0
+    LastSeenAs: Pr0Gam3rYeA
+  66b3c311-1735-3737-b8db-ba6aed438333:
+    HP: 20.0
+    ExtraHearts: 0
+    LastSeenAs: IvanDaGoat
+  a76ab93a-8b6f-37a3-80a7-0e18b6604e21:
+    HP: 20.0
+    ExtraHearts: 0
+    LastSeenAs: TheCrestWizard
+  3a0dd37e-39c0-3b0e-b77a-2c65dafb2695:
+    HP: 20.0
+    ExtraHearts: 0
+    LastSeenAs: Lag
+  65c08983-61dd-37f9-b10d-2b3f4c6bcf0f:
+    HP: 20.0
+    ExtraHearts: 0
+    LastSeenAs: tumbleweedreal95
+  3e66d862-8fc7-397b-b80e-fcaa921480ea:
+    HP: 20.0
+    ExtraHearts: 0
+    LastSeenAs: rrage
+  def1e1c3-4fc7-343f-b5ac-47fd752d943a:
+    HP: 20.0
+    ExtraHearts: 0
+    LastSeenAs: mother_fucker69
+  aee41577-be1d-39bb-ab93-1d0c4be99579:
+    HP: 19.8799991607666
+    ExtraHearts: 0
+    LastSeenAs: '4334'
+  a78f6309-acb8-3f21-ac22-4d94093f92d6:
+    HP: 22.0
+    ExtraHearts: 1.0
+    LastSeenAs: Fire_R_2
+  c2b98d57-0e0a-3600-a810-f11f77c834a0:
+    HP: 9.060001373291016
+    ExtraHearts: 0
+    LastSeenAs: ethanboi
+  780cdd25-49ca-34d0-b172-7048fd3b0f37:
+    HP: 20.0
+    ExtraHearts: -19.0
+    LastSeenAs: QWERTI69
+  10d9dff5-9aef-3f5b-a492-33f2019e6d20:
+    HP: 22.0
+    ExtraHearts: 1.0
+    LastSeenAs: Im_NUB
+  c9fcc01c-cbae-3f1a-8360-afd6df090af4:
+    HP: 20.0
+    ExtraHearts: 0
+    LastSeenAs: Lag13
+  a6d41dc0-8e18-3683-9c68-c49e6754a2a3:
+    HP: 20.0
+    ExtraHearts: 0
+    LastSeenAs: Nerf13
+  29e5ee4d-1d8c-3dcf-a72d-9ee111ef432c:
+    HP: 20.0
+    ExtraHearts: 0
+    LastSeenAs: I_am_doxxingP
+  71f1ac99-0728-3601-8a3d-851b45f354a4:
+    HP: 20.0
+    ExtraHearts: 0
+    LastSeenAs: obsidianrobux
+  eebfcc29-46ad-3bc5-858b-16fb07b9c99c:
+    HP: 20.0
+    ExtraHearts: 0
+    LastSeenAs: Lucifer_
+  47b3f33e-0a46-32e1-8864-e172d706e9c5:
+    HP: 20.0
+    ExtraHearts: -10.0
+    LastSeenAs: ItzMinuteTech01
+  8ae453c3-c98a-3530-9a1e-e5631de680b7:
+    HP: 20.0
+    ExtraHearts: 0
+    LastSeenAs: SSolarEclipse_
+  705d5a66-a060-3103-ba7f-c2b6aa135026:
+    HP: 20.0
+    ExtraHearts: 0
+    LastSeenAs: SSolarEclipse__
+  6124fd56-9a85-363a-bfb0-cc5eba0fb793:
+    HP: 0.0
+    ExtraHearts: 0
+    LastSeenAs: Hidden_Remnant
+  7f64f257-349a-3f91-b175-cd265287a75a:
+    HP: 20.0
+    ExtraHearts: 0
+    LastSeenAs: SkyBlockShingami
+  062a76d4-ca9e-3f57-8b80-615d5d6cea86:
+    HP: 20.0
+    ExtraHearts: 0
+    LastSeenAs: Shadow_Wrath
+  3c7fe54a-3563-3c65-9764-aa3b5fa656b4:
+    HP: 20.0
+    ExtraHearts: 0
+    LastSeenAs: Friedpig06
+  847abde8-3d3f-3451-8b79-cbec712a779c:
+    HP: 0.0
+    ExtraHearts: 0
+    LastSeenAs: The_Pro
+  689e61dc-ac5b-32ce-b6b9-e1325c635c23:
+    HP: 20.0
+    ExtraHearts: 0
+    LastSeenAs: YeeDarver302
+  818b756a-8c75-3ea6-8cb2-cac7f2bf8617:
+    HP: 13.60000228881836
+    ExtraHearts: 1.0
+    LastSeenAs: C00l_Blue
+Permissions: {}
+DefaultHearts: 10
+EnableIn: world,world_nether,world_the_end,world,world_nether,world_the_end
+HideHearts: false
+ResetPassword: 550992
+Groups:
+  Pr0Gam3rYeA: 10
+  Fire_R_2: 12
+  '4334': 10

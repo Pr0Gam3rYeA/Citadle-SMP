@@ -1,0 +1,84 @@
+no-permission: '&cYou don''t have the permission %permission%'
+count: '%count% '
+item:
+  inventory-title: 'Shown item:'
+  unnamed: '%count%%color%\[%icon%%color%%type%%color%\]'
+  named: '%count%%color%\[%icon%%color%%name%%color%\]'
+  none: \[None\]
+  unknown: '&cUnknown Item'
+  name-ellipsis: '...'
+  custom:
+    your custom displayname: '%count%&6\[%icon%%color%Custom Display Name&6\]'
+slot:
+  numbered: ' from slot %slot%'
+  hand: ''
+all:
+  self: '&aYou show %item%%slot%&a to everyone!'
+  target: '%player% &ashows everyone %item%%slot%!'
+world:
+  self: '&aYou show %item%%slot%&a to everyone in your world!'
+  target: '%player% &ashows %item%%slot%&a to everyone in his world!'
+radius:
+  self: '&aYou hold up %item%%slot%!%customradius%'
+  custom: '&8(View distance: %radius%&8 blocks)'
+  target: '%player%&a holds up %item%%slot%!'
+player:
+  self: '&aYou show %player% %item%%slot%'
+  target: '%player% &ashows you %item%%slot%'
+inv:
+  chat: '&a\[%player%''s Inventory\]'
+  title: '&r%player%''s Inventory'
+  hover: '&5Click to view the inventory of &e%player%'
+  inventory-not-viewable: '&cThat inventory is not viewable!'
+  all:
+    self: '&aYou show your inventory to everyone!'
+    target: '&a%player% &ashows everyone his inventory!'
+  world:
+    self: '&aYou show your inventory to everyone in your world!'
+    target: '&a%player% &ashows his inventory to everyone in his world!'
+  radius:
+    self: '&aYou show your inventory to everyone around you!%customradius%'
+    custom: '&8(View distance: %radius%&8 blocks)'
+    target: '%player%&a shows his inventory!'
+  player:
+    self: '&aYou show %target%&a your inventory. (Click)'
+    target: '%player%&a shows you his inventory. (Click)'
+ender:
+  chat: '&a\[%player%''s Enderchest\]'
+  title: '&r%player%''s Enderchest'
+  hover: '&5Click to view the Enderchest of &e%player%'
+  inventory-not-viewable: '&cThat Enderchest is not viewable!'
+  all:
+    self: '&aYou show your Enderchest to everyone!'
+    target: '%player%&a shows everyone his Enderchest!'
+  world:
+    self: '&aYou show your Enderchest to everyone in your world!'
+    target: '%player%&a shows his Enderchest to everyone in his world!'
+  radius:
+    self: '&aYou show your Enderchest to everyone around you!%customradius%'
+    custom: '&8(View distance: %radius%&8 blocks)'
+    target: '%player%&a shows his Enderchest!'
+  player:
+    self: '&aYou show %target%&a your Enderchest. (Click)'
+    target: '%player%&a shows you his Enderchest. (Click)'
+help:
+  item-info: '&eOptions for showing %item%&e from slot %slot%:'
+  suggest-hover: '&9Click to insert &f%insert%&9 into input'
+  chat: '&e> &aWrite &f%variable%&a into chat.'
+  player: '&e> &aShow a specific player: &f%command%'
+  default: '&e> &aShow people in a %radius% block radius: &f%command%'
+  radius: '&e> &aShow people in a custom radius: &f%command%'
+  world: '&e> &aShow to everyone in your world: &f%command%'
+  all: '&e> &aShow every online player: &f%command%'
+error:
+  no-item: '&cYou don''t have an item to show in that slot. :('
+  item-no-longer-cached: '&cThis item is no longer cached and can''t be viewed anymore!'
+  invalid-slot: '&e%input% &cis not a valid slot!'
+  radius-too-small: '&cError: Your input %input% is too small!'
+  radius-not-integer: '&cError: Your input %input% is not a valid integer!'
+  missing-radius: '&cError: Please input a number after the radius argument!'
+  item-blocked: '&cYou are not allowed to show this item! (Blocked by %definition%&c)'
+  player-offline: '&cThe player %player%&c is not online'
+  noone-around: '&cThere are no players around which you could show it to :('
+  cooldown: '&cYou have to wait %remaining%&c more seconds before showing another
+    item!'

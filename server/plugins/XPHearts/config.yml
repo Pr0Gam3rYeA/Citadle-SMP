@@ -1,0 +1,19 @@
+##########################################################
+#                                                        #
+#              XPHearts  Configurations                  #
+#                                                        #
+##########################################################
+
+# Max health per-level
+# 0:20 means if you're level 0, your maximum health is 20.
+# 2 healthpoints is equal to 1 heart. So 20 healthpoints is equal to 10 hearts
+
+max-health-per-level:
+  0: 20
+  5: 22
+  10: 24
+  15: 25
+  20: 30
+  30: 50
+  50: 60
+  100: 100

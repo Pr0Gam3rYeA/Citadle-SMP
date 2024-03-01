@@ -1,0 +1,21 @@
+Background_Item:
+  Type: STAINED_GLASS_PANE
+  Data: 15
+  Durability: 15
+  Amount: 1
+  HideName: true
+Pages:
+- item:
+    Type: BEDROCK
+    Amount: 1
+    Name: '&rSpawn'
+  name: Spawn
+  permission: '@a'
+  slot: 1
+  performed: 8
+  actions:
+  - id: 1
+    value:
+      commands:
+      - /tp -145 67 250
+  isPage: true

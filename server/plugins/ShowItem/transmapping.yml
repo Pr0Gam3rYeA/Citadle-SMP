@@ -1,0 +1,513 @@
+templates:
+  colors:    
+    15: black
+    14: red
+    13: green
+    12: brown
+    11: blue
+    10: purple
+    9: cyan
+    8: silver
+    7: gray
+    6: pink
+    5: lime
+    4: yellow
+    3: lightBlue
+    2: magenta
+    1: orange
+    0: white
+  colorsinverted:
+    0: black
+    1: red
+    2: green
+    3: brown
+    4: blue
+    5: purple
+    6: cyan
+    7: silver
+    8: gray
+    9: pink
+    10: lime
+    11: yellow
+    12: lightBlue
+    13: magenta
+    14: orange
+    15: white
+  slabs:  
+    0: stone
+    1: sand
+    2: wood
+    3: cobble
+    4: brick
+    5: smoothStoneBrick
+    6: netherBrick
+    7: quartz
+  sandstones:
+    0: default
+    1: chiseled
+    2: smooth
+  potions:
+    UNCRAFTABLE: empty
+    JUMP: leaping
+    SPEED: swiftness
+    INSTANT_HEAL: healing
+    HEAL: healing
+    INSTANT_DAMAGE: harming
+    HARM: harming
+    REGEN: regeneration
+mapping:
+  STONE: 
+    general: stone
+    types:
+      0: stone
+      1: granite
+      2: graniteSmooth
+      3: diorite
+      4: dioriteSmooth
+      5: andesite
+      6: andestieSmooth
+  DIRT: 
+    general: dirt
+    types:
+      0: default
+      1: coarse
+      2: podzol
+  COBBLESTONE: stonebrick
+  SAPLING: 
+    general: sapling
+    types:
+      0: oak
+      1: spruce
+      2: birch
+      3: jungle
+      4: acacia
+      5: big_oak
+  SAND:
+    general: sand
+    types:
+      0: default
+      1: red
+  SANDSTONE:
+    general: sandStone
+    template: sandstones
+  RED_SANDSTONE: 
+    general: redSandStone
+    template: sandstones
+  GOLD_ORE: oreGold
+  IRON_ORE: oreIron
+  COAL_ORE: oreCoal
+  SPONGE: 
+    general: sponge
+    types:
+      0: dry
+      1: wet
+  LAPIS_ORE: oreLapis
+  LAPIS_BLOCK: blockLapis
+  NOTE_BLOCK: musicBlock
+  POWERED_RAIL: goldenRail
+  DETECTOR_RAIL: detectorRail
+  PISTON_STICKY_BASE: pistonStickyBase
+  LONG_GRASS: tallgrass
+  DEAD_BUSH: tallgrass.shrub
+  PISTON_BASE: pistonBase
+  WOOL:
+    general: cloth
+    template: colors
+  YELLOW_FLOWER: flower1.dandelion
+  RED_ROSE: 
+    general: flower2
+    types:
+      0: poppy
+      1: blueOrchid
+      2: allium
+      3: houstonia
+      4: tulipRed
+      5: tulipOrange
+      6: tulipWhite
+      7: tulipPink
+      8: oxeyeDaisy
+  BROWN_MUSHROOM:
+  RED_MUSHROOM:
+  GOLD_BLOCK: blockGold
+  IRON_BLOCK: blockIron
+  DOUBLE_STEP:
+    general: stoneSlab
+    template: slabs
+  STEP: 
+    general: stoneSlab
+    template: slabs
+  MOSSY_COBBLESTONE: stoneMoss
+  MOB_SPAWNER: mobSpawner
+  WOOD_STAIRS: stairsWood
+  REDSTONE_WIRE: redstoneDust
+  DIAMOND_ORE: oreDiamond
+  DIAMOND_BLOCK: blockDiamond
+  SOIL: farmland
+  BURNING_FURNACE: furnace
+  SIGN_POST: sign
+  WOODEN_DOOR: doorWood
+  RAILS: rail
+  COBBLESTONE_STAIRS: stairsStone
+  WALL_SIGN: sign
+  STONE_PLATE: pressurePlateStone
+  IRON_DOOR_BLOCK: doorIron
+  WOOD_PLATE: pressurePlateWood
+  REDSTONE_ORE: oreRedstone
+  GLOWING_REDSTONE_ORE: oreRedstone
+  REDSTONE_TORCH_OFF: notGate
+  REDSTONE_TORCH_ON: notGate
+  STONE_BUTTON: button
+  SNOW_BLOCK: snow
+  SUGAR_CANE_BLOCK: reeds
+  NETHERRACK: hellrock
+  SOUL_SAND: hellsand
+  GLOWSTONE: lightgem
+  JACK_O_LANTERN: litpumpkin
+  CAKE_BLOCK: cake
+  DIODE_BLOCK_OFF: diode
+  DIODE_BLOCK_ON: diode
+  STAINED_GLASS: 
+    general: stainedGlass
+    template: colors
+  TRAP_DOOR: trapdoor
+  MONSTER_EGGS: monsterStoneEgg
+  SMOOTH_BRICK: stonebricksmooth
+  HUGE_MUSHROOM_1: mushroom
+  HUGE_MUSHROOM_2: mushroom
+  IRON_FENCE: fenceIron
+  THIN_GLASS: thinGlass
+  MELON_BLOCK: melon
+  PUMPKIN_STEM: item.pumpkinSeeds
+  MELON_STEM: item.melon
+  FENCE_GATE: fenceGate
+  BRICK_STAIRS: stairsBrick
+  SMOOTH_STAIRS: stairsStoneBrickSmooth
+  WATER_LILY: waterlily
+  NETHER_BRICK: netherBrick
+  NETHER_FENCE: netherFence
+  NETHER_BRICK_STAIRS: stairsNetherBrick
+  NETHER_WARTS: netherStalk
+  ENCHANTMENT_TABLE: enchantmentTable
+  BREWING_STAND: brewingStand
+  ENDER_PORTAL: portal
+  ENDER_PORTAL_FRAME: endPortalFrame
+  ENDER_STONE: whiteStone
+  DRAGON_EGG: dragonEgg
+  REDSTONE_LAMP_OFF: redstoneLight
+  REDSTONE_LAMP_ON: redstoneLight
+  WOOD_DOUBLE_STEP: woodSlab
+  WOOD_STEP: woodSlab
+  SANDSTONE_STAIRS: stairsSandStone
+  EMERALD_ORE: oreEmerald
+  ENDER_CHEST: enderChest
+  TRIPWIRE_HOOK: tripWireSource
+  TRIPWIRE: tripWire
+  EMERALD_BLOCK: blockEmerald
+  SPRUCE_WOOD_STAIRS: stairsWoodSpruce
+  BIRCH_WOOD_STAIRS: stairsWoodBirch
+  JUNGLE_WOOD_STAIRS: stairsWoodJungle
+  COMMAND: commandBlock
+  COBBLE_WALL: 
+    general: cobbleWall
+    types:
+      0: normal
+      1: mossy
+  FLOWER_POT: item.flowerPot
+  CARROT: item.carrots
+  POTATO: item.potato
+  WOOD_BUTTON: button
+  SKULL: item.skull.char
+  TRAPPED_CHEST: chestTrap
+  GOLD_PLATE: weightedPlate_light
+  IRON_PLATE: weightedPlate_heavy
+  REDSTONE_COMPARATOR_OFF: comparator
+  REDSTONE_COMPARATOR_ON: comparator
+  DAYLIGHT_DETECTOR: daylightDetector
+  REDSTONE_BLOCK: blockRedstone
+  QUARTZ_ORE: netherquartz
+  QUARTZ_BLOCK: quartzBlock
+  QUARTZ_STAIRS: stairsQuartz
+  ACTIVATOR_RAIL: activatorRail
+  STAINED_CLAY: 
+    general: clayHardenedStained
+    template: colors
+  STAINED_GLASS_PANE:
+    general: thinStainedGlass
+    template: colors
+  LEAVES_2: leaves
+  LOG_2: log
+  ACACIA_STAIRS: stairsWoodAcacia
+  DARK_OAK_STAIRS: stairsWoodDarkOak
+  SLIME_BLOCK: slime
+  IRON_TRAPDOOR: ironTrapdoor
+  PRISMARINE: 
+    general: prismarine
+    types:
+      0: rough
+      1: bricks
+      2: dark
+  SEA_LANTERN: seaLantern
+  HAY_BLOCK: hayBlock
+  CARPET: woolCarpet
+  HARD_CLAY: clayHardened
+  COAL_BLOCK: blockCoal
+  PACKED_ICE: icePacked
+  DOUBLE_PLANT: 
+    general: doublePlant
+    types:
+      0: sunflower
+      1: syringa
+      2: grass
+      3: fern
+      4: rose
+      5: paeonia
+  STANDING_BANNER:
+    general: item.banner
+    template: colorsinverted
+  WALL_BANNER:
+    general: item.banner
+    template: colorsinverted
+  BANNER:
+    general: item.banner
+    template: colorsinverted
+  DAYLIGHT_DETECTOR_INVERTED: daylightDetector
+  RED_SANDSTONE_STAIRS: stairsRedSandStone
+  DOUBLE_STONE_SLAB2: stoneSlab2.red_sandstone
+  STONE_SLAB2: stoneSlab2.red_sandstone
+  SPRUCE_FENCE_GATE: spruceFenceGate
+  BIRCH_FENCE_GATE: birchFenceGate
+  JUNGLE_FENCE_GATE: jungleFenceGate
+  DARK_OAK_FENCE_GATE: darkOakFenceGate
+  ACACIA_FENCE_GATE: acaciaFenceGate
+  SPRUCE_FENCE: spruceFence
+  BIRCH_FENCE: birchFence
+  JUNGLE_FENCE: jungleFence
+  DARK_OAK_FENCE: darkOakFence
+  ACACIA_FENCE: acaciaFence
+  SPRUCE_DOOR: doorSpruce
+  BIRCH_DOOR: doorBirch
+  JUNGLE_DOOR: doorJungle
+  ACACIA_DOOR: doorAcacia
+  DARK_OAK_DOOR: doorDarkOak
+  IRON_SPADE: shovelIron
+  IRON_PICKAXE: pickaxeIron
+  IRON_AXE: hatchetIron
+  FLINT_AND_STEEL: flintAndSteel
+  IRON_INGOT: ingotIron
+  GOLD_INGOT: ingotGold
+  IRON_SWORD: swordIron
+  WOOD_SWORD: swordWood
+  WOOD_SPADE: shovelWood
+  WOOD_PICKAXE: pickaxeWood
+  WOOD_AXE: hatchetWood
+  STONE_SWORD: swordStone
+  STONE_SPADE: shovelStone
+  STONE_PICKAXE: pickaxeStone
+  STONE_AXE: hatchetStone
+  DIAMOND_SWORD: swordDiamond
+  DIAMOND_SPADE: shovelDiamond
+  DIAMOND_PICKAXE: pickaxeDiamond
+  DIAMOND_AXE: hatchetDiamond
+  MUSHROOM_SOUP: mushroomStew
+  GOLD_SWORD: swordGold
+  GOLD_SPADE: shovelGold
+  GOLD_PICKAXE: pickaxeGold
+  GOLD_AXE: hatchetGold
+  WOOD_HOE: hoeWood
+  STONE_HOE: hoeStone
+  IRON_HOE: hoeIron
+  DIAMOND_HOE: hoeDiamond
+  GOLD_HOE: hoeGold
+  LEATHER_HELMET: helmetCloth
+  LEATHER_CHESTPLATE: chestplateCloth
+  LEATHER_LEGGINGS: leggingsCloth
+  LEATHER_BOOTS: bootsCloth
+  CHAINMAIL_HELMET: helmetChain
+  CHAINMAIL_CHESTPLATE: chestplateChain
+  CHAINMAIL_LEGGINGS: leggingsChain
+  CHAINMAIL_BOOTS: bootsChain
+  IRON_HELMET: helmetIron
+  IRON_CHESTPLATE: chestplateIron
+  IRON_LEGGINGS: leggingsIron
+  IRON_BOOTS: bootsIron
+  DIAMOND_HELMET: helmetDiamond
+  DIAMOND_CHESTPLATE: chestplateDiamond
+  DIAMOND_LEGGINGS: leggingsDiamond
+  DIAMOND_BOOTS: bootsDiamond
+  GOLD_HELMET: helmetGold
+  GOLD_CHESTPLATE: chestplateGold
+  GOLD_LEGGINGS: leggingsGold
+  GOLD_BOOTS: bootsGold
+  PORK: porkchopRaw
+  GRILLED_PORK: porkchopCooked
+  GOLDEN_APPLE: appleGold
+  WOOD_DOOR: doorOak
+  WATER_BUCKET: bucketWater
+  LAVA_BUCKET: bucketLava
+  IRON_DOOR: doorIron
+  SNOW_BALL: snowball
+  MILK_BUCKET: milk
+  CLAY_BRICK: brick
+  CLAY_BALL: clay
+  SUGAR_CANE: reeds
+  SLIME_BALL: slimeball
+  STORAGE_MINECART: minecartChest
+  POWERED_MINECART: minecartFurnace
+  FISHING_ROD: fishingRod
+  WATCH: clock
+  GLOWSTONE_DUST: yellowDust
+  RAW_FISH:
+    general: fish
+    types:
+      0: cod.raw
+      1: salmon.raw
+      2: clownfish.raw
+      3: pufferfish.raw
+  COOKED_FISH:
+    general: fish
+    types:
+      0: cod.cooked
+      1: salmon.cooked
+  INK_SACK:
+    general: dyePowder
+    types:
+      0: black
+      1: red
+      2: green
+      3: brown
+      4: blue
+      5: purple
+      6: cyan
+      7: silver
+      8: gray
+      9: pink
+      10: lime
+      11: yellow
+      12: lightBlue
+      13: magenta
+      14: orange
+      15: white
+  PUMPKIN_SEEDS: seeds_pumpkin
+  MELON_SEEDS: seeds_melon
+  RAW_BEEF: beefRaw
+  COOKED_BEEF: beefCooked
+  RAW_CHICKEN: chickenRaw
+  COOKED_CHICKEN: chickenCooked
+  ROTTEN_FLESH: rottenFlesh
+  ENDER_PEARL: enderPearl
+  BLAZE_ROD: blazeRod
+  GHAST_TEAR: ghastTear
+  GOLD_NUGGET: goldNugget
+  NETHER_STALK: netherStalkSeeds
+  GLASS_BOTTLE: emptyPotion
+  SPIDER_EYE: spiderEye
+  FERMENTED_SPIDER_EYE: fermentedSpiderEye
+  BLAZE_POWDER: blazePowder
+  MAGMA_CREAM: magmaCream
+  BREWING_STAND_ITEM: brewingStand
+  CAULDRON_ITEM: cauldron
+  EYE_OF_ENDER: eyeOfEnder
+  SPECKLED_MELON: speckledMelon
+  MONSTER_EGG: monsterPlacer
+  EXP_BOTTLE: expBottle
+  BOOK_AND_QUILL: writingBook
+  WRITTEN_BOOK: writtenBook
+  ITEM_FRAME: frame
+  FLOWER_POT_ITEM: flowerPot
+  CARROT_ITEM: carrots
+  POTATO_ITEM: potato
+  BAKED_POTATO: potatoBaked
+  POISONOUS_POTATO: potatoPoisonous
+  EMPTY_MAP: emptyMap
+  GOLDEN_CARROT: carrotGolden
+  SKULL_ITEM:
+    general: skull
+    types:
+      0: skeleton
+      1: wither
+      2: zombie
+      3: char
+      4: creeper
+      5: dragon
+  CARROT_STICK: carrotOnAStick
+  NETHER_STAR: netherStar
+  PUMPKIN_PIE: pumpkinPie
+  FIREWORK: fireworks
+  FIREWORK_CHARGE: fireworksCharge
+  ENCHANTED_BOOK: enchantedBook
+  REDSTONE_COMPARATOR: comparator
+  NETHER_BRICK_ITEM: netherbrick
+  QUARTZ: netherquartz
+  EXPLOSIVE_MINECART: minecartTnt
+  HOPPER_MINECART: minecartHopper
+  PRISMARINE_SHARD: prismarineShard
+  PRISMARINE_CRYSTALS: prismarineCrystals
+  RABBIT: rabbitRaw
+  COOKED_RABBIT: rabbitCooked
+  RABBIT_STEW: rabbitStew
+  RABBIT_FOOT: rabbitFoot
+  RABBIT_HIDE: rabbitHide
+  ARMOR_STAND: armorStand
+  IRON_BARDING: horsearmormetal
+  GOLD_BARDING: horsearmorgold
+  DIAMOND_BARDING: horsearmordiamond
+  NAME_TAG: nameTag
+  COMMAND_MINECART: minecartCommandBlock
+  MUTTON: muttonRaw
+  COOKED_MUTTON: muttonCooked
+  SPRUCE_DOOR_ITEM: doorSpruce
+  BIRCH_DOOR_ITEM: doorBirch
+  JUNGLE_DOOR_ITEM: doorJungle
+  ACACIA_DOOR_ITEM: doorAcacia
+  DARK_OAK_DOOR_ITEM: doorDarkOak
+  GOLD_RECORD: record.13
+  GREEN_RECORD: record.cat
+  RECORD_3: record.blocks
+  RECORD_4: record.chirp
+  RECORD_5: record.far
+  RECORD_6: record.mall
+  RECORD_7: record.mellohi
+  RECORD_8: record.stal
+  RECORD_9: record.strad
+  RECORD_10: record.ward
+  RECORD_11: record.11
+  RECORD_12: record.wait
+  PURPUR_BLOCK: purpurBlock
+  PURPUR_DOUBLE_SLAB: purpurSlab
+  PURPUR_PILLAR: purpurPillar
+  PURPUR_SLAB: purpurSlab
+  PURPUR_STAIRS: stairsPurpur
+  BEETROOT_SEEDS: beetroot_seeds
+  BEETROOT_SOUP: beetroot_soup
+  DRAGONS_BREATH: dragon_breath
+  CHORUS_FLOWER: chorusFlower
+  CHORUS_FRUIT: chorusFruit
+  CHORUS_FRUIT_POPPED: chorusFruitPopped
+  CHORUS_PLANT: chorusPlant
+  END_BRICKS: endBricks
+  END_CRYSTAL: end_crystal
+  END_GATEWAY: endPortal
+  END_ROD: endRod
+  POTION:
+    general: potion.effect
+    template: potions
+  LINGERING_POTION:
+    general: lingering_potion.effect
+    template: potions
+  SPLASH_POTION:
+    general: splash_potion.effect
+    template: potions
+  TIPPED_ARROW:
+    general: tipped_arrow.effect
+    template: potions
+  GRASS_PATH: grassPath
+  BOAT: boat.oak
+  BOAT_ACACIA: boat.acacia
+  BOAT_BIRCH: boat.birch
+  BOAT_DARK_OAK: boat.dark_oak
+  BOAT_JUNGLE: boat.jungle
+  BOAT_SPRUCE: boat.spruce
+  NETHER_WART_BLOCK: netherWartBlock
+  RED_NETHER_BRICK: redNetherBrick
+  BONE_BLOCK: boneBlock
+  SHULKER_SHELL: shulkerShell

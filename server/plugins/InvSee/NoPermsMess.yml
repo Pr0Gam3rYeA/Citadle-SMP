@@ -1,0 +1,11 @@
+# Every of this parameter indicates what it means, edit parameters without # to save changes and remember to reload server with [rl c, rl, reload]!
+# NotOp - Not Administator [Error Message]
+# ChooseUser - Invalid User [Error Message]
+# Yourself - Cannot open your own inventory [Error Message]
+# Looking - When Mod is looking at inventory [Success Message]
+#  InvalidUser - Invalid User
+NotOp: You're not an Administrator!
+ChooseUser: Choose a correct user!
+Yourself: You can't InvSee your own inventory!
+Looking: An Administrator is looking through your inventory...
+InvalidUser: Invalid User!

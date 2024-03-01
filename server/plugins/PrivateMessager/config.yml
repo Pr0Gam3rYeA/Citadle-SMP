@@ -1,0 +1,4 @@
+formatDefault: '&8[&r{SENDER} &8- &r{RECEIVER}&8] &6» &r{MESSAGE}'
+use_PermissionsEx: true
+formatPex: '&8[&r{PREFIX_SENDER}{SENDER} &8- &r{PREFIX_RECEIVER}{RECEIVER}&8] &6» &r{MESSAGE}'
+me: 'Me'

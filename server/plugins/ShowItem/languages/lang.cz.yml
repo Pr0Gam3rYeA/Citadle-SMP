@@ -1,0 +1,86 @@
+# 
+#  Czech translate by DonSalieri_ (@cruel.professor)
+no-permission: '&cNemáš práva na &c%permission%'
+count: '%count% '
+item:
+  inventory-title: 'Zobrazená item:'
+  unnamed: '%count%%color%\[%icon%%color%%type%%color%\]'
+  named: '%count%%color%\[%icon%%color%%name%%color%\]'
+  none: \[None\]
+  unknown: '&cNeznámý item'
+  name-ellipsis: '...'
+  custom:
+    your custom displayname: '%count%&6\[%icon%%color%Custom Display Name&6\]'
+slot:
+  numbered: ' ze slotu %slot%'
+  hand: ''
+all:
+  self: '&aUkzauješ %item%%slot% všem!'
+  target: '%player% &aukazuje %item%%slot%!'
+world:
+  self: '&aUkazuješ %item%%slot%&a všem ve tvém světě!'
+  target: '%player% &aukazuje %item%%slot% všem!'
+radius:
+  self: '&aZobrazuješ %item%%slot%!%customradius%'
+  custom: '&8(Vzdálenost dohledu: %radius%&8 bloků)'
+  target: '%player%&a zobrazuje %item%%slot%!'
+player:
+  self: '&aUkazuješ %player% %item%%slot%'
+  target: '%player% &ati ukazuje %item%%slot%'
+inv:
+  chat: '&a\[Inventář hráče %player%\]'
+  title: '&rInventář hráče %player%'
+  hover: '&5Klikni pro otevření inventáře hráče &e%player%'
+  inventory-not-viewable: '&cTento inventář nejde otevřít!'
+  all:
+    self: '&aUkazuješ všem svůj inventář!'
+    target: '&a%player% &aukazuje svůj inventář!'
+  world:
+    self: '&aUkazuješ svůj inventář všem ve tvém světě!'
+    target: '&a%player% &aukazuje svůj inventář!'
+  radius:
+    self: '&aUkazuješ svůj inventář všem kolem sebe!%customradius%'
+    custom: '&8(Vzdálenost dohledu: %radius%&8 bloků)'
+    target: '%player%&a ukazuje svůj inventář!'
+  player:
+    self: '&aUkazuješ hráči %target%&a svůj inventář. (Klikni)'
+    target: '%player%&a ti ukazuje inventář. (Klikni)'
+ender:
+  chat: '&a\[Ender truhla hráče %player%\]'
+  title: '&rEnder truhla hráče %player%'
+  hover: '&5Klikni pro otevření ender truhly hráče &e%player%'
+  inventory-not-viewable: '&cTato ender truhla nejde otevřít!'
+  all:
+    self: '&aUkazuješ svojí ender truhlu všem!'
+    target: '%player%&a Ukazuje svojí ender truhlu!'
+  world:
+    self: '&aUkazuješ svojí ender turhlu všem ve tvém světě!'
+    target: '%player%&a ukazuje svojí ender truhlu všem!'
+  radius:
+    self: '&aUkazuješ svojí ender truhlu všem kolem sebe!%customradius%'
+    custom: '&8(Vzdálenost dohledu: %radius%&8 bloků)'
+    target: '%player%&a ukazuje svojí ender truhlu!'
+  player:
+    self: '&aUkazuješ hráči %target%&a svojí ender truhlu. (Klikni)'
+    target: '%player%&a ti ukazuje svojí ender truhlu. (Klikni)'
+help:
+  item-info: '&eNastavení pro ukazování &c%item%&f ze slotu %slot%:'
+  suggest-hover: '&9Klikni pro vložení &f%insert%&9 do inputu.'
+  chat: '&e> &aNapiš &f%variable%&a do chatu.'
+  player: '&e> &fUkáže specifického hráče: &f%command%'
+  default: '&e> &aUkáže hráče v rádiusu %radius%&a rádius bloků: &f%command%'
+  radius: '&e> &aUkáže hráče ve vlastním rádiusu: &f%command%'
+  world: '&e> &aUkáže všem ve tvém světě: &f%command%'
+  all: '&e> &aUkáže všem online hráčům: &f%command%'
+error:
+  no-item: '&cV tomto slotu nemáš item který bys mohl ukázat.'
+  item-no-longer-cached: '&cTento item již není v paměti a nikdo si ho nemůže znovu
+    prohlédnout!'
+  invalid-slot: '&e%input% &cnení validní slot!'
+  radius-too-small: '&cChyba: Tvůj input %input% je moc malý!'
+  radius-not-integer: '&cChyba: Tvůj input %input% není validní celé číslo!'
+  missing-radius: '&cChyba: Prosím vlož číslo až po rádiusu!'
+  item-blocked: '&cTento item nemůžeš ukázat! (Blokován %definition%&c)'
+  player-offline: '&cHráč %player%&c není online'
+  noone-around: '&cOkolo tebe nejsou hráči kterým bys to mohl ukázat'
+  cooldown: '&cMusíš počkat %remaining%&c vteřin před ukázáním dalšího itemu!'

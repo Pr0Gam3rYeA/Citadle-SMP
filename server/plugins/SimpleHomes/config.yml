@@ -29,7 +29,7 @@ admin-bypass-wait: true
 
 # Maximum amount of homes
 # Users can bypass this with homes.bypasscap
-max-home-count: 5
+max-home-count: 10
 
 # Should setting a new home with the same name as an existing home overwrite the old home?
 # If set to false - you will have to delete the old home before setting the new home
@@ -57,10 +57,10 @@ chat-color: "&6"
 teleport-color: "&a"
 
 # The message to send after successfully teleporting
-teleport-message: "Teleported!"
+teleport-message: "Teleported back to Home Point!"
 
 # Message to show when at maximum home count
-max-homecount-message: "&cYou have reached the maximum amount of homes"
+max-homecount-message: "&cSorry, but you have reached the maximum amount of homes!"
 
 # Message to show when trying to access admin commands without homes.admin
 invalid-perm-message: "&cInvalid permissions"

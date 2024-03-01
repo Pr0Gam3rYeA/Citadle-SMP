@@ -1,0 +1,85 @@
+no-permission: '&cDir fehlt die Berechtigung %permission%'
+count: '%count% '
+item:
+  inventory-title: 'Gezeigtes Item:'
+  unnamed: '%count%%color%\[%icon%%color%%type%%color%\]'
+  named: '%count%%color%\[%icon%%color%%name%%color%\]'
+  none: \[None\]
+  unknown: '&cUnbekanntes Item'
+  name-ellipsis: '...'
+  custom:
+    your custom displayname: '%count%&6\[%icon%%color%Custom Display Name&6\]'
+slot:
+  numbered: ' in Slot %slot%'
+  hand: ''
+all:
+  self: '&aDu zeigst allen %item%%slot%&a!'
+  target: '%player% &azeigt allen %item%%slot%!'
+world:
+  self: '&aDu zeigst allen in deiner Welt %item%%slot%&a!'
+  target: '%player% &azeigt allen in seiner WElt %item%%slot%&a!'
+radius:
+  self: '&aDu zeigst %item%%slot%!%customradius%'
+  custom: '&8(Sichtweite: %radius%&8 Bl�cke)'
+  target: '%player%&a zeigt %item%%slot%!'
+player:
+  self: '&aDu zeigst %player% %item%%slot%'
+  target: '%player% &azeigt dir %item%%slot%'
+inv:
+  chat: '&a\[%player%''s Inventar\]'
+  title: '&r%player%''s Inventar'
+  hover: '&5Klicke um das Inventar von &e%player%&5 anzuschauen'
+  inventory-not-viewable: '&cDieses Inventar kann nicht angeschaut werden!!'
+  all:
+    self: Du zeigst allen dein Inventar!
+    target: '%player% zeigt allen sein Inventar!'
+  world:
+    self: Du zeigst allen in deiner Welt dein Inventar!
+    target: '%player% zeigt sein Inventar allen in seiner Welt!'
+  radius:
+    self: Du zeigst allen um dich herum dein Inventar!%customradius%
+    custom: '&8(Sichtweite: %radius%&8 Bl�cke)'
+    target: '%player% zeigt sein Inventar!'
+  player:
+    self: Du zeigst %player%&a dein Inventar. (Klick)
+    target: '%player%&a zeigt dir sein Inventar. (Klick)'
+ender:
+  chat: '&a\[%player%''s Enderchest\]'
+  title: '&r%player%''s Enderchest'
+  hover: '&5Klicke um die Enderchest von &e%player%&5 anzuschauen'
+  inventory-not-viewable: '&cDiese Enderchest kann nicht angeschaut werden!!'
+  all:
+    self: Du zeigst allen deine Enderchest!
+    target: '%player% zeigt allen seine Enderchest!'
+  world:
+    self: Du zeigst allen in deiner Welt deine Enderchest!
+    target: '%player% zeigt seine Enderchest allen in seiner Welt!'
+  radius:
+    self: Du zeigst allen um dich herum deine Enderchest!%customradius%
+    custom: '&8(Sichtweite: %radius%&8 Bl�cke)'
+    target: '%player% zeigt seine Enderchest!'
+  player:
+    self: Du zeigst %player%&a deine Enderchest. (Klick)
+    target: '%player%&a zeigt dir seine Enderchest. (Klick)'
+help:
+  item-info: '&eOptionen um das %item%&e in Slot %slot% zu zeigen:'
+  suggest-hover: '&9Klicke um &f%insert%&9 deinem Chatinput hinzuzufügen'
+  chat: '&e> &aSchreibe &f%variable%&a in den Chat.'
+  player: '&e> &aZeige einem bestimmten Spieler: &f%command%'
+  default: '&e> &aZeige Spielern in einem %radius% Block Radius: &f%command%'
+  radius: '&e> &aZeige Spielern in einem beliebigen Radius: &f%command%'
+  world: '&e> &aZeige Spielern in deiner Welt: &f%command%'
+  all: '&e> &aZeige allen Spielern auf dem Server: &f%command%'
+error:
+  no-item: '&cDu hast kein Item in diesem Slot. :('
+  item-no-longer-cached: '&cDieses Item ist nicht mehr im Speicher und kann daher
+    nicht mehr angeschaut werden!'
+  invalid-slot: '&e%input% &cist kein valider Slot!'
+  radius-too-small: '&cFehler: Deine Eingabe %input% ist zu klein!'
+  radius-not-integer: '&cFehler: Deine Eingabe %input% ist keine erlaubte Zahl!'
+  missing-radius: '&cFehler: Bitte gebe eine Zahl für den Radius an!'
+  item-blocked: '&cDu darfst dieses Item nicht zeigen! (Von %definition%&c geblockt)'
+  player-offline: '&cDer Spieler %player%&c ist nicht online'
+  noone-around: '&cEs ist niemand da der es sehen könnte :('
+  cooldown: '&cDu musst weitere %remaining%&c Sekunden warten bevor du ein weiteres
+    Item zeigen kannst!'

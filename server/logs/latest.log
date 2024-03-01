@@ -1,5 +1,730 @@
-[06:53:22] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[06:53:22] [Server thread/INFO]: Loading properties
-[06:53:22] [Server thread/WARN]: Failed to load eula.txt
-[06:53:22] [Server thread/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
-[06:53:22] [Server thread/INFO]: Stopping server
+[11:34:14] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[11:34:14] [Server thread/INFO]: Loading properties
+[11:34:14] [Server thread/INFO]: Default game type: SURVIVAL
+[11:34:14] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[11:34:15] [Server thread/INFO]: Debug logging is disabled
+[11:34:15] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[11:34:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[11:34:15] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:34:15] [Server thread/INFO]: Data value allowed items: 
+[11:34:15] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[11:34:15] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[11:34:15] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[11:34:15] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[11:34:15] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[11:34:15] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[11:34:15] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[11:34:15] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[11:34:15] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[11:34:15] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[11:34:15] [Server thread/INFO]: Generating keypair
+[11:34:15] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[11:34:15] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[11:34:15] [Server thread/INFO]: Using default channel type
+[11:34:16] [Server thread/ERROR]: Ambiguous plugin name `EaglerPluginInstaller' for files `plugins/EaglerPluginInstaller.jar' and `plugins/EaglerPluginInstaller-1.1.5.jar' in `plugins'
+[11:34:16] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[11:34:16] [Server thread/ERROR]: Could not load 'plugins/InteractiveChat-4.2.9.0.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: ProtocolLib
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:222) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[11:34:16] [Server thread/INFO]: [MSG] Loading MSG v1.8
+[11:34:16] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[11:34:16] [Server thread/INFO]: [[EaglerPluginInstaller]] Loading EaglerPluginInstaller v1.1.4
+[11:34:16] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[11:34:16] [Server thread/INFO]: [AdminFun] Loading AdminFun v2.0.7
+[11:34:16] [Server thread/INFO]: [ChatItem] Loading ChatItem v2.5
+[11:34:16] [Server thread/INFO]: [StatsSB] Loading StatsSB v4.0.16-Lite
+[11:34:16] [Server thread/INFO]: [SpawnProtect] Loading SpawnProtect v1.3.3
+[11:34:16] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[11:34:16] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.3.1
+[11:34:16] [Server thread/INFO]: [UltimateTimber] Loading UltimateTimber v3.0.0
+[11:34:16] [Server thread/WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+[11:34:16] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+[11:34:16] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+[11:34:16] [Server thread/INFO]: Loading dependency com.zaxxer:HikariCP:5.1.0 from https://repo1.maven.org/maven2
+[11:34:16] [Server thread/INFO]: Loaded dependency 'HikariCP-5.1.0' successfully.
+[11:34:16] [Server thread/INFO]: Loading dependency org.reactivestreams:reactive-streams:1.0.2 from https://repo1.maven.org/maven2
+[11:34:16] [Server thread/INFO]: Loaded dependency 'reactive-streams-1.0.2' successfully.
+[11:34:16] [Server thread/INFO]: Loading dependency net.kyori:adventure-platform-bukkit:4.1.1 from https://repo1.maven.org/maven2
+[11:34:16] [Server thread/INFO]: Loaded dependency 'adventure-platform-bukkit-4.1.1' successfully.
+[11:34:16] [Server thread/INFO]: Loading dependency net.kyori:adventure-api:4.11.0 from https://repo1.maven.org/maven2
+[11:34:16] [Server thread/INFO]: Loaded dependency 'adventure-api-4.11.0' successfully.
+[11:34:16] [Server thread/INFO]: Loading dependency com.h2database:h2:1.4.200 from https://repo1.maven.org/maven2
+[11:34:16] [Server thread/INFO]: Loaded dependency 'h2-1.4.200' successfully.
+[11:34:16] [Server thread/INFO]: Loading dependency org.apache.commons:commons-text:1.9 from https://repo1.maven.org/maven2
+[11:34:16] [Server thread/INFO]: Loaded dependency 'commons-text-1.9' successfully.
+[11:34:16] [Server thread/INFO]: Loading dependency org.mariadb.jdbc:mariadb-java-client:3.2.0 from https://repo1.maven.org/maven2
+[11:34:16] [Server thread/INFO]: Loaded dependency 'mariadb-java-client-3.2.0' successfully.
+[11:34:16] [Server thread/INFO]: Loading dependency org.apache.commons:commons-lang3:3.12.0 from https://repo1.maven.org/maven2
+[11:34:16] [Server thread/INFO]: Loaded dependency 'commons-lang3-3.12.0' successfully.
+[11:34:16] [Server thread/INFO]: Loading dependency com.github.cryptomorin:XSeries:9.8.0 from https://repo1.maven.org/maven2
+[11:34:16] [Server thread/INFO]: Loaded dependency 'XSeries-9.8.0' successfully.
+[11:34:16] [Server thread/INFO]: Loading dependency org.jooq:jooq:3.14.16 from https://repo1.maven.org/maven2
+[11:34:16] [Server thread/INFO]: Loaded dependency 'jooq-3.14.16' successfully.
+[11:34:16] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.4.2
+[11:34:16] [Server thread/INFO]: [AdvancedSetSpawn] Loading AdvancedSetSpawn v2.5
+[11:34:16] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[11:34:16] [Server thread/INFO]: [MineStats] Loading MineStats v0.1-SNAPSHOT
+[11:34:16] [Server thread/INFO]: [RandomTeleport] Loading RandomTeleport v7.27.1
+[11:34:16] [Server thread/INFO]: [SpawnPlugin] Loading SpawnPlugin v1.0.3
+[11:34:16] [Server thread/INFO]: [RandomTP] Loading RandomTP v1.0.0
+[11:34:16] [Server thread/INFO]: [EasyRanks] Loading EasyRanks v1.3.2
+[11:34:16] [Server thread/INFO]: [[EaglerPluginUpdater]] Loading EaglerPluginUpdater v1.1.2
+[11:34:16] [Server thread/INFO]: [MoreHearts] Loading MoreHearts v2.1
+[11:34:16] [Server thread/INFO]: [EnderChest] Loading EnderChest v1.5
+[11:34:16] [Server thread/INFO]: [Regeln] Loading Regeln v1.0
+[11:34:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:34:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:34:16] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[11:34:16] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[11:34:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:34:16] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[11:34:16] [Server thread/INFO]: Preparing level "world"
+[11:34:16] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:34:16] [Server thread/INFO]: Mob Spawn Range: 4
+[11:34:16] [Server thread/INFO]: Anti X-Ray: true
+[11:34:16] [Server thread/INFO]: 	Engine Mode: 1
+[11:34:16] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:34:16] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:34:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:34:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:34:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:34:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:34:16] [Server thread/INFO]: Random Lighting Updates: false
+[11:34:16] [Server thread/INFO]: Structure Info Saving: true
+[11:34:16] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:34:16] [Server thread/INFO]: Max Entity Collisions: 8
+[11:34:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:34:16] [Server thread/INFO]: Max TNT Explosions: 100
+[11:34:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:34:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:34:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:34:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:34:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:34:16] [Server thread/INFO]: View Distance: 4
+[11:34:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:34:16] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:34:16] [Server thread/INFO]: Clear tick list: false
+[11:34:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:34:16] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:34:16] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[11:34:16] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[11:34:16] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[11:34:16] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[11:34:16] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[11:34:16] [Server thread/INFO]: Water over lava flow speed: 5
+[11:34:16] [Server thread/INFO]: Fix TNT cannons: false
+[11:34:16] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[11:34:16] [Server thread/INFO]: Keep spawn chunk loaded: true
+[11:34:16] [Server thread/INFO]: World async lighting: false
+[11:34:16] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[11:34:16] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[11:34:16] [Thread-5/INFO]: UUID of player Pr0Gam3rYeA is af01f83e-6a2c-3b2c-a897-a812d00d255d
+[11:34:16] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:34:16] [Server thread/INFO]: Mob Spawn Range: 4
+[11:34:16] [Server thread/INFO]: Anti X-Ray: true
+[11:34:16] [Server thread/INFO]: 	Engine Mode: 1
+[11:34:16] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:34:16] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:34:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:34:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:34:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:34:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:34:16] [Server thread/INFO]: Random Lighting Updates: false
+[11:34:16] [Server thread/INFO]: Structure Info Saving: true
+[11:34:16] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:34:16] [Server thread/INFO]: Max Entity Collisions: 8
+[11:34:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:34:16] [Server thread/INFO]: Max TNT Explosions: 100
+[11:34:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:34:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:34:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:34:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:34:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:34:16] [Server thread/INFO]: View Distance: 4
+[11:34:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:34:16] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:34:16] [Server thread/INFO]: Clear tick list: false
+[11:34:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:34:16] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:34:16] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[11:34:16] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[11:34:16] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[11:34:16] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[11:34:16] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[11:34:16] [Server thread/INFO]: Water over lava flow speed: 5
+[11:34:16] [Server thread/INFO]: Fix TNT cannons: false
+[11:34:16] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[11:34:16] [Server thread/INFO]: Keep spawn chunk loaded: true
+[11:34:16] [Server thread/INFO]: World async lighting: false
+[11:34:16] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[11:34:16] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[11:34:16] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:34:16] [Server thread/INFO]: Mob Spawn Range: 4
+[11:34:16] [Server thread/INFO]: Anti X-Ray: true
+[11:34:16] [Server thread/INFO]: 	Engine Mode: 1
+[11:34:16] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:34:16] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:34:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:34:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:34:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:34:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:34:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:34:16] [Server thread/INFO]: Random Lighting Updates: false
+[11:34:16] [Server thread/INFO]: Structure Info Saving: true
+[11:34:16] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:34:16] [Server thread/INFO]: Max Entity Collisions: 8
+[11:34:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:34:16] [Server thread/INFO]: Max TNT Explosions: 100
+[11:34:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:34:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:34:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:34:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:34:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:34:16] [Server thread/INFO]: View Distance: 4
+[11:34:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:34:16] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:34:16] [Server thread/INFO]: Clear tick list: false
+[11:34:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:34:16] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:34:16] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[11:34:16] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[11:34:16] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[11:34:16] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[11:34:16] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[11:34:16] [Server thread/INFO]: Water over lava flow speed: 5
+[11:34:16] [Server thread/INFO]: Fix TNT cannons: false
+[11:34:16] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[11:34:16] [Server thread/INFO]: Keep spawn chunk loaded: true
+[11:34:16] [Server thread/INFO]: World async lighting: false
+[11:34:16] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[11:34:16] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[11:34:16] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2348293964338618994)
+[11:34:17] [Server thread/INFO]: Preparing spawn area: 56%
+[11:34:18] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2348293964338618994)
+[11:34:19] [Server thread/INFO]: Preparing spawn area: 72%
+[11:34:19] [Server thread/INFO]: Preparing start region for level 2 (Seed: 2348293964338618994)
+[11:34:19] [Server thread/INFO]: [MSG] Enabling MSG v1.8
+[11:34:19] [Server thread/INFO]: [MSG] Message has been enabled!
+[11:34:19] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[11:34:19] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[11:34:19] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[11:34:19] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[11:34:19] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[11:34:19] [Server thread/INFO]: Check 1 passed
+
+[11:34:20] [Server thread/INFO]: Check 3 passed
+
+[11:34:20] [Server thread/INFO]: --------------------------------------------[m
+
+[11:34:20] [Server thread/INFO]: --------------------------------------------[m
+
+[11:34:20] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+
+[11:34:20] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+
+[11:34:20] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+
+[11:34:20] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+
+[11:34:20] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
+
+[11:34:20] [Server thread/INFO]: --------------------------------------------[m
+
+[11:34:20] [Server thread/INFO]: --------------------------------------------[m
+
+[11:34:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[11:34:21] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[11:34:21] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[11:34:21] [Server thread/INFO]: [AdminFun] Enabling AdminFun v2.0.7
+[11:34:21] [Server thread/INFO]: AdminFun v2.0.7 is now enabled.
+[11:34:21] [Server thread/INFO]: [ChatItem] Enabling ChatItem v2.5
+[11:34:21] [Server thread/INFO]: [ChatItem] Detected server version: v1_8
+[11:34:21] [Server thread/INFO]: [ChatItem] Loading own packet system.
+[11:34:21] [Server thread/INFO]: [ChatItem] Loaded 2 getter for base components.
+[11:34:21] [Server thread/INFO]: [ChatItem] Save method founded: save. Use own ComponentBuilder append method.
+[11:34:21] [Server thread/INFO]: [ChatItem] Manager automatically chosen: PacketEditing (packet), ChatListener (chat)
+[11:34:22] [Server thread/INFO]: [ChatItem] Loaded translation for en_gb.
+[11:34:22] [Server thread/INFO]: [StatsSB] Enabling StatsSB v4.0.16-Lite
+[11:34:23] [Server thread/INFO]: [SpawnProtect] Enabling SpawnProtect v1.3.3
+[11:34:23] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[11:34:23] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[11:34:23] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[11:34:23] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[11:34:23] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[11:34:23] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.3.1
+[11:34:23] [Server thread/INFO]: [ClearLag] Checking for a new update...
+[11:34:23] [Thread-17/WARN]: [ClearLag] Could not reach dev.bukkit.org for update checking. Is it offline?
+[11:34:23] [Server thread/INFO]: [ClearLag] Update found! Downloading...
+[11:34:23] [Server thread/INFO]: [ClearLag] New clearlag will be enabled on restart!
+[11:34:23] [Server thread/INFO]: [ClearLag] ClearLag is now enabled.
+[11:34:23] [Server thread/INFO]: [UltimateTimber] Enabling UltimateTimber v3.0.0
+[11:34:23] [Server thread/INFO]:  [m
+
+[11:34:23] [Server thread/INFO]: [0;32;1m=============================[m
+
+[11:34:23] [Server thread/INFO]: [0;37;22mUltimateTimber 3.0.0 by [0;35;22mCraftaro <3![m
+
+[11:34:23] [Server thread/INFO]: [0;37;22mAction: [0;32;1mEnabling[0;37;22m...[m
+
+[11:34:23] [Server thread/INFO]: [UltimateTimber] Loaded locale "en_US"
+[11:34:23] [Server thread/INFO]: [CraftaroCore] Hooked UltimateTimber.
+[11:34:24] [Server thread/INFO]: [0;32;1m=============================[m
+
+[11:34:24] [Server thread/INFO]:  [m
+
+[11:34:24] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.4.2
+[11:34:24] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using lang-en.yml as language file.[m
+
+[11:34:24] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 16 section configs from /sections/[m
+
+[11:34:24] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 16 shop configs from /shops/[m
+
+[11:34:24] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Updating Shop settings...[m
+
+[11:34:24] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: Failed to load default economy provider with reason 'Could not find Vault', trying to automatically find supported economy provider[m
+
+[11:34:24] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: ===================================================[m
+
+[11:34:24] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m:  [m
+
+[11:34:24] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: Failed to automatically load an available economy provider, this plugin requires one, disabling...[m
+
+[11:34:24] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: See a list of available economy providers on our wiki here: https://wiki.gpplugins.com/economyshopgui/file-configuration/config.yml#economy-provider[m
+
+[11:34:24] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m:  [m
+
+[11:34:24] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: ===================================================[m
+
+[11:34:24] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.4.2
+[11:34:24] [Server thread/INFO]: [AdvancedSetSpawn] Enabling AdvancedSetSpawn v2.5
+[11:34:24] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[11:34:24] [Server thread/INFO]: [MineStats] Enabling MineStats v0.1-SNAPSHOT
+[11:34:24] [Server thread/INFO]: [RandomTeleport] Enabling RandomTeleport v7.27.1
+[11:34:24] [Server thread/INFO]: [32m[RandomTeleport] jarFile: file:/workspaces/Citadle-SMP/server/plugins/randomteleport-7.27.1.jar[0m
+[11:34:24] [Server thread/INFO]: [32m[RandomTeleport] 1 listener manager found![0m
+[11:34:24] [Server thread/INFO]: [32m[RandomTeleport] 1 listeners found![0m
+[11:34:24] [Server thread/INFO]: [32m[RandomTeleport] registered PlayerRespawnEvent at the priority NORMAL[0m
+[11:34:24] [Server thread/INFO]: [32m[RandomTeleport] registered PlayerJoinEvent at the priority NORMAL[0m
+[11:34:24] [Server thread/INFO]: [32m[RandomTeleport] registered PlayerMoveEvent at the priority NORMAL[0m
+[11:34:24] [Server thread/INFO]: [32m[RandomTeleport] registered PlayerInteractEvent at the priority NORMAL[0m
+[11:34:24] [Server thread/INFO]: [32m[RandomTeleport] registered SignChangeEvent at the priority NORMAL[0m
+[11:34:24] [Server thread/INFO]: [32m[RandomTeleport] Registered com.vk2gpz.randomteleport.B.b[0m
+[11:34:24] [Server thread/INFO]: [32m[RandomTeleport] Registered Listener Manager com.vk2gpz.randomteleport.B.a[0m
+[11:34:24] [Server thread/INFO]: [32m[RandomTeleport] 1 commands found![0m
+[11:34:24] [Server thread/INFO]: [32m[RandomTeleport] Registered sub command reload[0m
+[11:34:24] [Server thread/INFO]: [32m[RandomTeleport] Registered sub command teleport[0m
+[11:34:24] [Server thread/INFO]: [32m[RandomTeleport] Registered sub command help[0m
+[11:34:24] [Server thread/INFO]: [32m[RandomTeleport] Registered sub command debug[0m
+[11:34:24] [Server thread/INFO]: [32m[RandomTeleport] com.vk2gpz.randomteleport.Z.J could not be registered.[0m
+[11:34:24] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "<local2>" is null
+
+[11:34:24] [Server thread/WARN]: 	at com.vk2gpz.randomteleport.Z.J.e(J.java:18)
+
+[11:34:24] [Server thread/WARN]: 	at com.vk2gpz.randomteleport.a.g.u.W(u.java:54)
+
+[11:34:24] [Server thread/WARN]: 	at com.vk2gpz.randomteleport.e.C(e.java:200)
+
+[11:34:24] [Server thread/WARN]: 	at com.vk2gpz.randomteleport.a.F.c.<init>(c.java:48)
+
+[11:34:24] [Server thread/WARN]: 	at com.vk2gpz.randomteleport.e.<init>(e.java:107)
+
+[11:34:24] [Server thread/WARN]: 	at com.vk2gpz.randomteleport.RandomTeleport.onEnable(RandomTeleport.java:49)
+
+[11:34:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[11:34:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[11:34:24] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[11:34:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[11:34:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[11:34:24] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
+
+[11:34:24] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
+
+[11:34:24] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
+
+[11:34:24] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
+
+[11:34:24] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[11:34:24] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[11:34:24] [Server thread/INFO]: [32m[RandomTeleport] RandomTeleport version 7.27.1 is Enabled[0m
+[11:34:24] [Server thread/INFO]: [SpawnPlugin] Enabling SpawnPlugin v1.0.3
+[11:34:24] [Server thread/INFO]: [SpawnPlugin] Plugin Abilitato Correttamente!
+[11:34:24] [Server thread/INFO]: [RandomTP] Enabling RandomTP v1.0.0
+[11:34:24] [Server thread/INFO]: [RandomTP] RandomTP plugin enabled succesfully. Detected mappings are written below
+[11:34:24] [Server thread/INFO]: [RandomTP] From world 'world' to 'world' with center x & z at '0 & 0' with max x & z '2500 & 2500'
+[11:34:24] [Server thread/INFO]: [RandomTP] Set RTP Cooldown to 10000 milliseconds.
+[11:34:24] [Server thread/INFO]: [EasyRanks] Enabling EasyRanks v1.3.2
+[11:34:24] [Server thread/INFO]: [[EaglerPluginUpdater]] Enabling EaglerPluginUpdater v1.1.2
+[11:34:25] [Server thread/INFO]: [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.4
+[11:34:25] [Server thread/INFO]: --------------------------------------------[m
+
+[11:34:25] [Server thread/INFO]: --------------------------------------------[m
+
+[11:34:25] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m PluginInstaller V1.1.5 is now Disabled! D:[m
+
+[11:34:25] [Server thread/INFO]: --------------------------------------------[m
+
+[11:34:25] [Server thread/INFO]: --------------------------------------------[m
+
+[11:34:25] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[11:34:25] [Server thread/INFO]: Check 1 passed
+
+[11:34:25] [Server thread/INFO]: Check 3 passed
+
+[11:34:25] [Server thread/INFO]: --------------------------------------------[m
+
+[11:34:25] [Server thread/INFO]: --------------------------------------------[m
+
+[11:34:25] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+
+[11:34:25] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+
+[11:34:25] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+
+[11:34:25] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+
+[11:34:25] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
+
+[11:34:25] [Server thread/INFO]: --------------------------------------------[m
+
+[11:34:25] [Server thread/INFO]: --------------------------------------------[m
+
+[11:34:25] [Server thread/INFO]: --------------------------------------------[m
+
+[11:34:25] [Server thread/INFO]: --------------------------------------------[m
+
+[11:34:25] [Server thread/INFO]: [0;32;1m[EaglerPluginUpdater][0;36;1m EaglerPluginUpdater V1.1.2 is now Enabled! :D[m
+
+[11:34:25] [Server thread/INFO]: You do not need to do anything, this plugin will automatically update your PluginUpdater on startup[m
+
+[11:34:25] [Server thread/INFO]: --------------------------------------------[m
+
+[11:34:25] [Server thread/INFO]: --------------------------------------------[m
+
+[11:34:25] [Server thread/INFO]: [MoreHearts] Enabling MoreHearts v2.1
+[11:34:25] [Server thread/INFO]: [MoreHearts V2] Has been enabled!
+[11:34:25] [Server thread/INFO]: [EnderChest] Enabling EnderChest v1.5
+[11:34:25] [Server thread/INFO]: [Regeln] Enabling Regeln v1.0
+[11:34:25] [Server thread/WARN]: Server permissions file permissions.yml is not valid YAML.
+java.lang.ClassCastException: class java.lang.String cannot be cast to class java.util.Map (java.lang.String and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadCustomPermissions(CraftServer.java:802) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:329) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[11:34:25] [Server thread/INFO]: Done (8.991s)! For help, type "help" or "?"
+[11:34:25] [Server thread/INFO]: Timings Reset
+[11:34:25] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[11:34:25] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[11:34:25] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[11:34:25] [Server thread/INFO]: Pr0Gam3rYeA[/[0:0:0:0:0:0:0:1]:42480] logged in with entity id 613 at ([world]-144.395, 68.0, 250.391)
+[11:34:27] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:34:31] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:34:34] [Async Chat Thread - #0/INFO]: [0;37;1m[21m[[0;31;22m[21mOwner[0;37;1m[21m] [0;31;22m[21mPr0Gam3rYeA [0;37;1m[21m➟ [0;37;1m.[m
+
+[11:34:34] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:34:37] [Async Chat Thread - #0/INFO]: [0;37;1m[21m[[0;31;22m[21mOwner[0;37;1m[21m] [0;31;22m[21mPr0Gam3rYeA [0;37;1m[21m➟ [0;37;1mniceee[m
+
+[11:34:37] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:34:39] [Thread-18/INFO]: UUID of player 4334 is aee41577-be1d-39bb-ab93-1d0c4be99579
+[11:34:39] [Server thread/INFO]: 4334[/[0:0:0:0:0:0:0:1]:52758] logged in with entity id 614 at ([world]-144.395, 68.0, 250.391)
+[11:34:40] [Craft Scheduler Thread - 2/INFO]: [32m[RandomTeleport] Checking updates...[0m
+[11:34:40] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:34:43] [Server thread/INFO]: Pr0Gam3rYeA issued server command: /msg 4334 niccee
+[11:34:44] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:34:47] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:34:48] [Async Chat Thread - #0/INFO]: [0;37;1m[21m[[0;31;22m[21mOwner[0;37;1m[21m] [0;31;22m[21mPr0Gam3rYeA [0;37;1m[21m➟ [0;37;1mafk[m
+
+[11:34:50] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:34:52] [Server thread/INFO]: 4334 issued server command: /r wdym
+[11:34:53] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:34:56] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:00] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:03] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:06] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:09] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:12] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:16] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:19] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:22] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:22] [Server thread/INFO]: [@: Teleported 4334 to -137.429, 54.0, 258.587]
+[11:35:25] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:28] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:32] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:35] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:38] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:41] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:44] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:48] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:51] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:54] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:57] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:35:59] [Server thread/INFO]: 4334 issued server command: /home skele
+[11:36:00] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:36:04] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:36:07] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:36:10] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:36:13] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:36:14] [Server thread/ERROR]: Could not pass event BlockBreakEvent to UltimateTimber v3.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.breakBlock(PlayerInteractManager.java:286) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:215) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:640) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.inventory.ItemStack org.bukkit.inventory.EntityEquipment.getItemInMainHand()'
+	at com.craftaro.ultimatetimber.core.compatibility.CompatibleHand.getItem(CompatibleHand.java:93) ~[?:?]
+	at com.craftaro.ultimatetimber.manager.TreeFallManager.onBlockBreak(TreeFallManager.java:60) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 18 more
+[11:36:14] [Server thread/ERROR]: Could not pass event BlockBreakEvent to UltimateTimber v3.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.breakBlock(PlayerInteractManager.java:286) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:215) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:640) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.inventory.ItemStack org.bukkit.inventory.EntityEquipment.getItemInMainHand()'
+	at com.craftaro.ultimatetimber.core.compatibility.CompatibleHand.getItem(CompatibleHand.java:93) ~[?:?]
+	at com.craftaro.ultimatetimber.manager.TreeFallManager.onBlockBreak(TreeFallManager.java:60) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 18 more
+[11:36:15] [Server thread/ERROR]: Could not pass event BlockBreakEvent to UltimateTimber v3.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.breakBlock(PlayerInteractManager.java:286) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:215) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:640) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.inventory.ItemStack org.bukkit.inventory.EntityEquipment.getItemInMainHand()'
+	at com.craftaro.ultimatetimber.core.compatibility.CompatibleHand.getItem(CompatibleHand.java:93) ~[?:?]
+	at com.craftaro.ultimatetimber.manager.TreeFallManager.onBlockBreak(TreeFallManager.java:60) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 18 more
+[11:36:16] [Server thread/ERROR]: Could not pass event BlockBreakEvent to UltimateTimber v3.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.breakBlock(PlayerInteractManager.java:286) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:215) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:640) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.inventory.ItemStack org.bukkit.inventory.EntityEquipment.getItemInMainHand()'
+	at com.craftaro.ultimatetimber.core.compatibility.CompatibleHand.getItem(CompatibleHand.java:93) ~[?:?]
+	at com.craftaro.ultimatetimber.manager.TreeFallManager.onBlockBreak(TreeFallManager.java:60) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 18 more
+[11:36:16] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:36:17] [Server thread/ERROR]: Could not pass event BlockBreakEvent to UltimateTimber v3.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.breakBlock(PlayerInteractManager.java:286) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:215) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:640) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.inventory.ItemStack org.bukkit.inventory.EntityEquipment.getItemInMainHand()'
+	at com.craftaro.ultimatetimber.core.compatibility.CompatibleHand.getItem(CompatibleHand.java:93) ~[?:?]
+	at com.craftaro.ultimatetimber.manager.TreeFallManager.onBlockBreak(TreeFallManager.java:60) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 18 more
+[11:36:20] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:36:23] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:36:26] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:36:29] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:36:32] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:36:36] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:36:39] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:36:42] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:36:45] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:36:48] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:36:52] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:36:55] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:36:58] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:37:01] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:37:04] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:37:08] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:37:11] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:37:14] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:37:17] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:37:20] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:37:24] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:37:27] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:37:30] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:37:33] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:37:36] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:37:40] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:37:43] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:37:46] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:37:49] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:37:52] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:37:56] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:37:59] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:38:02] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:38:05] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:38:07] [Server thread/ERROR]: Could not pass event BlockBreakEvent to UltimateTimber v3.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.breakBlock(PlayerInteractManager.java:286) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:215) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:640) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.inventory.ItemStack org.bukkit.inventory.EntityEquipment.getItemInMainHand()'
+	at com.craftaro.ultimatetimber.core.compatibility.CompatibleHand.getItem(CompatibleHand.java:93) ~[?:?]
+	at com.craftaro.ultimatetimber.manager.TreeFallManager.onBlockBreak(TreeFallManager.java:60) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 18 more
+[11:38:08] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:38:12] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:38:15] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:38:18] [Server thread/INFO]: [@: Playing effect portal for 100 times]
+[11:38:21] [Server thread/INFO]: [@: Playing effect portal for 100 times]

@@ -1,0 +1,27 @@
+msg: # MSG Options
+  targetmsg: '&6&l[%sender% -> YOU] -> &r&f%msg%' # The message sent to the target
+  sendermsg: '&6&l[YOU -> %target%] -> &r&f%msg%' # The message sent to the sender
+  replymsg: '&6&l[%sender% -> YOU] -> &r&f%msg%' # The message sent to the target [reply]
+  replysendermsg: '&6&l[YOU -> %target%] -> &r&f%msg%' # The message sent to the sender [reply]
+  noargsreply: '&c&lYou must supply a message! Usage: /r <msg>' # No arguments [reply]
+  notonlinereply: '&c&lYou have no one to reply too!' # Not online [reply]
+  noargsmsg: '&c&lYou must supply a player name and message! Usage: /msg <player> <msg>' # No args [msg]
+  notonlinemsg: '&c&lPlayer not found! Usage: /msg <player> <msg>' # Not online [msg]
+  sendingtoself: '&c&lYou cannot message yourself lol! Usage: /msg <player> <msg>' # Sending to self
+use-staff-chat: true # Use the staff chat. [true or false]
+staff-chat-not-enabled: '&fUnknown command. Type "/help" for help.' # If the above is set to false then when the user exucutes /sc show them this.
+staffchat: # Staffchat options 
+  enabled: '&c&l[&r&fSC&c&l]&r&7 StaffChat has been enabled!' # SC enabled
+  disabled: '&c&l[&r&fSC&c&l]&r&7 StaffChat has been disabled!' # SC disabled
+  format: '&c&l[&r&fSC&c&l]&r&7 %player%&b:&f %msg%' # SC format
+chat: # Chat options
+  disabled: '&c&lChat was disabled by %sender%!' # Chat disabled
+  enabled: '&c&lChat was enabled by %sender%!' # Chat enabled
+json: # JSON options
+  use-welcome-message: true # Use the welcome message (true or false)
+  json-welcome: '&cWelcome to our server %player%!' # When the player joins they recieve this message
+  json-hover: '&cClick here to execute a command!' # When the player hovers over the message show this message
+  json-command: '/mhelp' # The suggested command to run when they click the message
+death: # Death message settings
+  use: true # Use the custom death message
+  death-message: '&b&l%player% &4&lwas killed by &b&l%killer%&b&l!' # The death message if above is true

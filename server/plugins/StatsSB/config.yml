@@ -1,0 +1,95 @@
+#                 Stats Scoreboard Config                        #
+#                  Color Codes Supported                         #
+##################################################################
+
+MainOptions: 
+  # Update Checker will check if there's an update and notify the console and players with the permission statssb.admin
+   updateChecker: true
+
+  # Disable Certain World Stats, You can disable specific worlds from tracking stats.
+   disableCertainWorldStats: false
+   enabledWorlds: 
+   - world
+   - pvp
+
+  # Kill Streaks track how many kills in a row a player has. (Will display on the /stats, and Scoreboard)
+   KillStreaks: 
+      enabled: true
+
+# Scoreboard Settings, Self explanatory.
+Scoreboard: 
+   enabled: true
+   toggledByDefault: true
+   resetScoreboardToggleOnJoin: false
+   toggleSBMessageOn: '&7Scoreboard has been Turned &aOn'
+   toggleSBMessageOff: '&7Scoreboard has been Turned &cOff'
+   dateTimeZone: PST
+   dateFormat: MM/dd/yyyy
+   Economy: 
+      enabled: false
+   title: '&6&l&k|:&r&6&lCitadle SMP&k|:'
+   layout: 
+   - '&7&l&m==================================='
+   - '&9&l%date%'
+   - '%blank-1%'
+   - '&a&lKills: &a%kills%'
+   - '&c&lDeaths: &c%deaths%'
+   - '&4&lKDR: &4%kd%'
+   - '&5&lKill Streak: &5%streak%'
+   - '%blank-1%'
+   - '&b&lJoin our discord at:'
+   - '&bhttps://discord.gg/yeNh8Ezm'
+   - '&7&l&m==================================='
+
+#Stats Command Settings.
+StatsCommand: 
+   enabled: true
+   enable-permission: false
+   no-permission-message: '&cYou do not have the Correct Permissions for this Command!'
+   message: 
+   - '&9&l&m----------------------'
+   - '&3User: &7%user%'
+   - '&3Placement: &7%kills_rank%'
+   - '&3Kills: &7%kills%'
+   - '&3Deaths: &7%deaths%'
+   - '&3KD: &7%kd%'
+   - '&3Streak: &7%streak%'
+   - '&9&l&m----------------------'
+
+# Leaderboard Settings. Custom Message supported.
+Leaderboard: 
+   update-time-in-seconds: 60
+   number-of-players-to-show: 10
+   playerFormat: '&7  #&f%rank% &3%player% &f- &7%amount%'
+   killsTitle: Kills Leaderboard
+   deathsTitle: Deaths Leaderboard
+   message: 
+   - '&8   &l&m                              '
+   - ' '
+   - '&b&l   %title%'
+   - ' '
+   - '%players%'
+   - ' '
+   - '&8   &l&m                              '
+   -
+database: 
+  # There's two database types
+  # SQLITE
+  # MYSQL
+   type: sqlite
+
+  # <<< If you're using SQLITE you should ignore under >>>
+   database: data
+   hostname: 127.0.0.1
+   port: 3306
+   username: root
+   password: 1234
+   bungee: false
+
+#Hologram Settings
+Holograms: 
+   number-of-players-to-show: 10
+   blank-line: true
+   killsTitle: '&e&lKills Leaderboard'
+   deathsTitle: '&e&lDeaths Leaderboard'
+   playerFormat: '&7  #&f%rank% &3%player% &f- &7%amount%'

@@ -1,0 +1,5 @@
+commandCooldownMilliseconds: 10000
+# Format below:
+#  - centerX:centerZ:maxX:maxZ:examplefrom:exampleto
+validWorlds:
+- 0:0:2500:2500:world:world

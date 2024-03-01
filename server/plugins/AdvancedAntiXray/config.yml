@@ -1,0 +1,45 @@
+#Default Configuration for AdvancedAntiXray by naito72498
+Sanction:
+ 800:
+  notify: true
+  commands:
+   - 'm %player% Xray is not good !'
+ 1000:
+  notify: true
+  commands:
+   - 'kick %player%'
+   - 'broadcast %player% was kicked for Xray !'
+ 1500:
+  notify: true
+  commands:
+   - 'ban %player%'
+   - 'broadcast %player% was banned for using Xray !'
+
+Prefix:
+ primaryColor: '&6'
+ secondaryColor: '&8'
+
+Messages:
+ notify: '&8%player%&6 is suspected of using &6Xray&8 !'
+ check: '&6The Xray level of &8%player%&6 = &8%XrayLvl%'
+ playerNotFound: '&6Unable to find this player.'
+ pluginReloaded: '&6Successfully reloaded !'
+ cmdUsage: '&6Usage: '
+ cmdPlayerOnly: '&6This command is only for players.'
+ xrayLvlReset: '&6Xray level of &8%player% &6reseted.'
+ xrayLvlSet: '&6Xray level of &8%player% &6set to &8%value%&6.'
+ 
+GUI:
+ minLvlToDisplay: 600
+ title: 'GUI'
+ onClick:
+  right:
+   - 'aax check %target%'
+   - 'gamemode survival'
+  left:
+   - 'tp %player% %target%'
+   - 'vanish'
+ skullLore:
+   - '&6Xray level: &8%level%'
+   - '&6Right click &8to check xray level of player'
+   - '&6Left click &8to tp and vanish to the player'

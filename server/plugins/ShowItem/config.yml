@@ -1,0 +1,183 @@
+# If the messages should try finding a text icon for this item from WolfieMarios Resourcepack (http://imgur.com/a/oHvbX)
+texticon-rp: true
+# If you have WorldResourcepacks (https://l.phoenix616.dev/wrp) or ForceResourcepacks (https://l.phoenix616.dev/frp) installed
+# then you can specify which  pack contains the icons. So if WRP/FRP has not send a pack to the player or a pack
+# that does not include the icons according to the below list then it wont show the icon characters to him.
+# Set to an empty list [] in order to completely disable this compatibility.
+packs-with-icons: []
+# - serverpack
+
+# The default language to use when there is no language file for a player's client locale
+default-language: en
+
+# If you have issues with item names not translating and showing their id you can enable this option
+# and use the manual mapping in transmapping.yml for all items
+use-translation-mapping: false
+# The default radius for the /showitem (/show, /si) command if no -r(adius) parameter is specified
+# Can also be "all" or "world" if the command without argument should target everyone (in the world)
+default-radius: 16
+# The amount of time in seconds that an inventory should be viewable after showing it
+show-inv-timeout: 300
+# This will show a live view of the inventory rather than the state when the command/variable was used
+show-live-inv: false
+# Try to automatically get the color of named items to color the brackets with
+use-name-color-for-brackets: true
+# Try to trim spaces from the start and end of an item's name
+trim-item-name: true
+# The maximum length that is displayed of the item's display name. Appends items.name-ellipses language key for too long ones.
+# -1 disables this.
+item-name-length: -1
+
+# Disable the sending of metrics data
+disable-metrics: false
+# Whether or not to check for updates. Ingame notifications are controlled by the showitem.updatenotification permission.
+update-check: true
+# Use the plugin' name prefix for any component click commands to ensure ShowItem's command is run
+# E.g. /showitem:showinv when opening a players inventory from a chat message
+namespaced-commands: true
+
+# Config options for the help functionality in the inventory
+# In order to use this players need the showitem.helpclick permission
+help-click:
+  # Which type of click should send the help
+  # LEFT, SHIFT_LEFT, RIGHT, SHIFT_RIGHT, MIDDLE, NUMBER_KEY (see numbers), DOUBLE_CLICK, DROP, CONTROL_DROP
+  click-types:
+  - MIDDLE
+  # Which slots should send the help message
+  # ARMOR, CONTAINER, QUICKBAR (hotbar)
+  # Star is wildcard for every slot
+  slot-types:
+  - "*"
+  # If click is of type NUMBER_KEY then these numbers will trigger the help
+  # Star is wildcard for every number
+  numbers:
+  - "*"
+
+chat:
+  variables:
+  # Which variables should be replaced in the chat with the player's current item
+  # %slot% is the place where the slot name/number should be
+  - "%item%"
+  - "%item%slot%%"
+  # Which variables should be usable to show a clickable text directly in the chat
+  # to show your current inventory
+  inv-variables:
+  - "%inv%"
+  - "%inventory%"
+  # Which variables should be usable to show a clickable text directly in the chat
+  # to show your current enderchest
+  ender-variables:
+  - "%ender%"
+  - "%enderchest%"
+  commands:
+  # A list of commands where we should replace the variable with the item info
+  - "msg"
+  - "say"
+  - "me"
+  - "ch"
+  # Maximum count of variables per message
+  # Bypass with the showitem.chat.spam permission
+  # 0 = unlimited
+  max-per-message: 1
+  # How to display variables that exceed the max count
+  # An empty string removes them completely
+  overflow-display: ""
+  # Allow variable with no item in hand?
+  # Uses lang.error.noitem as error message when false
+  show-empty-hand: true
+  # How should packets be handled? (requires a restart)
+  # Possible values:
+  # auto        - automatically detect the best solution
+  # ProtocolLib - use ProtocolLib (if installed)
+  # nms         - directly access native Minecraft server code
+  # reflection  - access Minecraft server via reflections
+  packet-handler: auto
+  # Priority of the ProtocolLib listener (requires restart)
+  # Possible values: lowest, low, normal, high, highest
+  listener-priority: highest
+
+# Filter strings out of item names and lore
+filter:
+  # Strings are compared case-insensitive
+  # r= prefix indicates that the string should be handled as a regex
+  list:
+  - "faggot"
+  - "r=f.ck"
+  # Replace with the following string.
+  # If the string is only one character long it will fill up the word's length with it
+  replace: "*****"
+
+# Block certain items from getting shown.
+# Can be bypassed with showitem.blockbypass and showitem.blockbypass.<blockname>
+block:
+  # Whether or not this match is inverted (match only items that don't match the values)
+  inverted: false
+  
+  # List of materials to block
+  # Materials: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  material: []
+  # - STONE
+  # - DIAMOND_SWORD
+
+  # Block items with certain strings in their names from getting shown (case-insensitive)
+  # r= prefix indicates that the string should be handled as a regex
+  name: []
+  # - "name 1"
+  # - "r=name \\d"
+
+  # Block items with certain strings in the lore from getting shown (case-insensitive)
+  # r= prefix indicates that the string should be handled as a regex
+  lore: []
+  # - "name 1"
+  # - "r=name \\d"
+
+  # Item durability value, can use comparators, <x, >x, =x, !=x or just equal a single number
+  # An empty string matches all durabilities
+  # Also supports chaining of comparators with a comma. E.g. >5,<20 for between 5 and 20
+  durability: ""
+
+  # Block items with the unbreakable tag
+  unbreakable: false
+
+  # Block items with certain enchantments, can block both all or only certain levels
+  # Names: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html
+  # Can take the same comparators as the durability for the level
+  enchantments: []
+  # - "DAMAGE_ALL"
+  # - "ARROW_DAMAGE:>2"
+
+  # Serialize the item to YAML and filter it with regex.
+  # This is only for advanced users and is less efficient, leave empty to disable.
+  serialized: ""
+
+  specific:
+    # Block only specific items that match certain block types. All global types can be used.
+    # Can by bypassed with showitem.blockbypass.specific.<name> e.g. showitem.blockbypass.specific.special-sword
+    special-sword:
+      material:
+      - DIAMOND_SWORD
+      name:
+      - "Phoenix616's Sword"
+      unbreakable: true
+      enchantments:
+      - "DAMAGE_ALL:>9000"
+    # Add multiple matcher, e.g. an inverted matcher that
+    # blocks everything that isn't in this matcher
+    # inverted-match:
+    #   inverted: true
+    #   material:
+    #   - WRITTEN_BOOK
+
+cooldowns:
+# Cooldowns for the radius and the direct show command in seconds.
+# 0 to disable cooldowns entirely.
+# Exempt permission: showitem.cooldownexempt
+  all: 300
+  world: 60
+  radius: 10
+  direct: 0
+  chat: 60
+
+# Whether or not we should attempt to send the nickname instead of the username
+# This will also include colors/prefixes of the team the player is in!
+use-nick-name: true

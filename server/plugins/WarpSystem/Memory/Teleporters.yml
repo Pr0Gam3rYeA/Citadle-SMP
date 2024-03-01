@@ -1,0 +1,19 @@
+RandomTeleporter:
+  InteractBlocks: []
+WarpSigns: []
+PortalsV2: []
+Spawn:
+  actions:
+  - value:
+      destination:
+        id:
+          X: -144.5242
+          Pitch: 7.4998
+          Y: 67.0
+          Z: 250.5988
+          World: world
+          Yaw: 181.35
+        type: 6
+  displayname: Spawn
+  performed: 9
+  fireworks: true
